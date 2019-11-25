@@ -1,0 +1,584 @@
+{
+  "stickers" : [
+    {
+      "filename" : "character2.sticker"
+    },
+    {
+      "filename" : "character4.sticker"
+    },
+    {
+      "filename" : "character5.sticker"
+    },
+    {
+      "filename" : "character3.sticker"
+    },
+    {
+      "filename" : "character1.sticker"
+    },
+    {
+      "filename" : "character6.sticker"
+    },
+    {
+      "filename" : "character7.sticker"
+    },
+    {
+      "filename" : "character8.sticker"
+    },
+    {
+      "filename" : "character10.sticker"
+    },
+    {
+      "filename" : "character11.sticker"
+    },
+    {
+      "filename" : "character12.sticker"
+    },
+    {
+      "filename" : "character13.sticker"
+    },
+    {
+      "filename" : "character14.sticker"
+    },
+    {
+      "filename" : "character15.sticker"
+    },
+    {
+      "filename" : "character9.sticker"
+    },
+    {
+      "filename" : "character16.sticker"
+    },
+    {
+      "filename" : "character17.sticker"
+    },
+    {
+      "filename" : "character18.sticker"
+    },
+    {
+      "filename" : "character19.sticker"
+    },
+    {
+      "filename" : "emoji1.sticker"
+    },
+    {
+      "filename" : "emoji2.sticker"
+    },
+    {
+      "filename" : "emoji3.sticker"
+    },
+    {
+      "filename" : "emoji4.sticker"
+    },
+    {
+      "filename" : "emoji5.sticker"
+    },
+    {
+      "filename" : "emoji6.sticker"
+    },
+    {
+      "filename" : "emoji7.sticker"
+    },
+    {
+      "filename" : "emoji8.sticker"
+    },
+    {
+      "filename" : "emoji9.sticker"
+    },
+    {
+      "filename" : "emoji10.sticker"
+    },
+    {
+      "filename" : "emoji11.sticker"
+    },
+    {
+      "filename" : "emoji12.sticker"
+    },
+    {
+      "filename" : "emoji13.sticker"
+    },
+    {
+      "filename" : "emoji14.sticker"
+    },
+    {
+      "filename" : "emoji15.sticker"
+    },
+    {
+      "filename" : "emoji16.sticker"
+    },
+    {
+      "filename" : "emoji17.sticker"
+    },
+    {
+      "filename" : "emoji18.sticker"
+    },
+    {
+      "filename" : "emoji19.sticker"
+    },
+    {
+      "filename" : "emoji20.sticker"
+    },
+    {
+      "filename" : "emoji21.sticker"
+    },
+    {
+      "filename" : "emoji22.sticker"
+    },
+    {
+      "filename" : "emoji23.sticker"
+    },
+    {
+      "filename" : "emoji24.sticker"
+    },
+    {
+      "filename" : "emoji25.sticker"
+    },
+    {
+      "filename" : "emoji26.sticker"
+    },
+    {
+      "filename" : "emoji27.sticker"
+    },
+    {
+      "filename" : "emoji28.sticker"
+    },
+    {
+      "filename" : "emoji29.sticker"
+    },
+    {
+      "filename" : "face1.sticker"
+    },
+    {
+      "filename" : "face2.sticker"
+    },
+    {
+      "filename" : "face3.sticker"
+    },
+    {
+      "filename" : "face4.sticker"
+    },
+    {
+      "filename" : "face5.sticker"
+    },
+    {
+      "filename" : "face6.sticker"
+    },
+    {
+      "filename" : "face7.sticker"
+    },
+    {
+      "filename" : "face8.sticker"
+    },
+    {
+      "filename" : "face9.sticker"
+    },
+    {
+      "filename" : "face10.sticker"
+    },
+    {
+      "filename" : "face11.sticker"
+    },
+    {
+      "filename" : "face12.sticker"
+    },
+    {
+      "filename" : "face13.sticker"
+    },
+    {
+      "filename" : "face14.sticker"
+    },
+    {
+      "filename" : "face15.sticker"
+    },
+    {
+      "filename" : "face16.sticker"
+    },
+    {
+      "filename" : "face17.sticker"
+    },
+    {
+      "filename" : "face18.sticker"
+    },
+    {
+      "filename" : "face19.sticker"
+    },
+    {
+      "filename" : "face20.sticker"
+    },
+    {
+      "filename" : "face21.sticker"
+    },
+    {
+      "filename" : "face22.sticker"
+    },
+    {
+      "filename" : "face23.sticker"
+    },
+    {
+      "filename" : "face24.sticker"
+    },
+    {
+      "filename" : "face25.sticker"
+    },
+    {
+      "filename" : "face26.sticker"
+    },
+    {
+      "filename" : "face27.sticker"
+    },
+    {
+      "filename" : "face28.sticker"
+    },
+    {
+      "filename" : "face29.sticker"
+    },
+    {
+      "filename" : "face30.sticker"
+    },
+    {
+      "filename" : "food1.sticker"
+    },
+    {
+      "filename" : "food2.sticker"
+    },
+    {
+      "filename" : "food3.sticker"
+    },
+    {
+      "filename" : "food4.sticker"
+    },
+    {
+      "filename" : "food5.sticker"
+    },
+    {
+      "filename" : "food6.sticker"
+    },
+    {
+      "filename" : "food7.sticker"
+    },
+    {
+      "filename" : "food8.sticker"
+    },
+    {
+      "filename" : "food9.sticker"
+    },
+    {
+      "filename" : "food10.sticker"
+    },
+    {
+      "filename" : "food11.sticker"
+    },
+    {
+      "filename" : "food12.sticker"
+    },
+    {
+      "filename" : "food13.sticker"
+    },
+    {
+      "filename" : "food14.sticker"
+    },
+    {
+      "filename" : "food15.sticker"
+    },
+    {
+      "filename" : "food16.sticker"
+    },
+    {
+      "filename" : "game1.sticker"
+    },
+    {
+      "filename" : "game2.sticker"
+    },
+    {
+      "filename" : "game3.sticker"
+    },
+    {
+      "filename" : "game4.sticker"
+    },
+    {
+      "filename" : "game5.sticker"
+    },
+    {
+      "filename" : "game6.sticker"
+    },
+    {
+      "filename" : "game7.sticker"
+    },
+    {
+      "filename" : "game8.sticker"
+    },
+    {
+      "filename" : "game9.sticker"
+    },
+    {
+      "filename" : "game10.sticker"
+    },
+    {
+      "filename" : "game11.sticker"
+    },
+    {
+      "filename" : "game12.sticker"
+    },
+    {
+      "filename" : "game13.sticker"
+    },
+    {
+      "filename" : "game14.sticker"
+    },
+    {
+      "filename" : "gift1.sticker"
+    },
+    {
+      "filename" : "gift2.sticker"
+    },
+    {
+      "filename" : "gift3.sticker"
+    },
+    {
+      "filename" : "gift4.sticker"
+    },
+    {
+      "filename" : "gift5.sticker"
+    },
+    {
+      "filename" : "gift6.sticker"
+    },
+    {
+      "filename" : "gift7.sticker"
+    },
+    {
+      "filename" : "gift8.sticker"
+    },
+    {
+      "filename" : "gift9.sticker"
+    },
+    {
+      "filename" : "gift10.sticker"
+    },
+    {
+      "filename" : "gift11.sticker"
+    },
+    {
+      "filename" : "gift12.sticker"
+    },
+    {
+      "filename" : "hbd1.sticker"
+    },
+    {
+      "filename" : "hbd2.sticker"
+    },
+    {
+      "filename" : "hbd3.sticker"
+    },
+    {
+      "filename" : "hbd4.sticker"
+    },
+    {
+      "filename" : "hbd5.sticker"
+    },
+    {
+      "filename" : "hbd6.sticker"
+    },
+    {
+      "filename" : "hbd7.sticker"
+    },
+    {
+      "filename" : "hbd8.sticker"
+    },
+    {
+      "filename" : "hbd9.sticker"
+    },
+    {
+      "filename" : "hbd10.sticker"
+    },
+    {
+      "filename" : "hbd11.sticker"
+    },
+    {
+      "filename" : "hbd12.sticker"
+    },
+    {
+      "filename" : "love1.sticker"
+    },
+    {
+      "filename" : "love2.sticker"
+    },
+    {
+      "filename" : "love3.sticker"
+    },
+    {
+      "filename" : "love4.sticker"
+    },
+    {
+      "filename" : "love5.sticker"
+    },
+    {
+      "filename" : "love6.sticker"
+    },
+    {
+      "filename" : "love7.sticker"
+    },
+    {
+      "filename" : "love8.sticker"
+    },
+    {
+      "filename" : "love9.sticker"
+    },
+    {
+      "filename" : "love10.sticker"
+    },
+    {
+      "filename" : "love11.sticker"
+    },
+    {
+      "filename" : "love12.sticker"
+    },
+    {
+      "filename" : "teddy1.sticker"
+    },
+    {
+      "filename" : "teddy2.sticker"
+    },
+    {
+      "filename" : "teddy3.sticker"
+    },
+    {
+      "filename" : "teddy4.sticker"
+    },
+    {
+      "filename" : "teddy5.sticker"
+    },
+    {
+      "filename" : "teddy6.sticker"
+    },
+    {
+      "filename" : "teddy7.sticker"
+    },
+    {
+      "filename" : "teddy8.sticker"
+    },
+    {
+      "filename" : "teddy9.sticker"
+    },
+    {
+      "filename" : "teddy10.sticker"
+    },
+    {
+      "filename" : "teddy11.sticker"
+    },
+    {
+      "filename" : "teddy12.sticker"
+    },
+    {
+      "filename" : "teddy13.sticker"
+    },
+    {
+      "filename" : "teddy14.sticker"
+    },
+    {
+      "filename" : "teddy15.sticker"
+    },
+    {
+      "filename" : "teddy16.sticker"
+    },
+    {
+      "filename" : "teddy17.sticker"
+    },
+    {
+      "filename" : "selfie1.sticker"
+    },
+    {
+      "filename" : "selfie2.sticker"
+    },
+    {
+      "filename" : "selfie3.sticker"
+    },
+    {
+      "filename" : "selfie4.sticker"
+    },
+    {
+      "filename" : "selfie5.sticker"
+    },
+    {
+      "filename" : "selfie6.sticker"
+    },
+    {
+      "filename" : "selfie7.sticker"
+    },
+    {
+      "filename" : "selfie8.sticker"
+    },
+    {
+      "filename" : "selfie9.sticker"
+    },
+    {
+      "filename" : "selfie10.sticker"
+    },
+    {
+      "filename" : "selfie11.sticker"
+    },
+    {
+      "filename" : "selfie12.sticker"
+    },
+    {
+      "filename" : "selfie13.sticker"
+    },
+    {
+      "filename" : "selfie14.sticker"
+    },
+    {
+      "filename" : "selfie15.sticker"
+    },
+    {
+      "filename" : "selfie16.sticker"
+    },
+    {
+      "filename" : "selfie17.sticker"
+    },
+    {
+      "filename" : "selfie18.sticker"
+    },
+    {
+      "filename" : "selfie19.sticker"
+    },
+    {
+      "filename" : "selfie20.sticker"
+    },
+    {
+      "filename" : "selfie21.sticker"
+    },
+    {
+      "filename" : "selfie22.sticker"
+    },
+    {
+      "filename" : "selfie23.sticker"
+    },
+    {
+      "filename" : "selfie24.sticker"
+    },
+    {
+      "filename" : "selfie25.sticker"
+    },
+    {
+      "filename" : "selfie26.sticker"
+    },
+    {
+      "filename" : "selfie27.sticker"
+    },
+    {
+      "filename" : "selfie28.sticker"
+    },
+    {
+      "filename" : "selfie29.sticker"
+    },
+    {
+      "filename" : "selfie30.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}

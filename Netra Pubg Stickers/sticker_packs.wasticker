@@ -1,0 +1,877 @@
+{
+    "ios_app_store_link" : "",
+    "android_play_store_link" : "",
+    "sticker_packs" : [
+    {
+        "identifier": "love",
+        "name": "Netra Stickers",
+        "publisher": "Netra Technosys",
+        "tray_image_file" : "loveTray.png",
+        "publisher_website" : "",
+        "privacy_policy_website" : "",
+        "license_agreement_website" : "",
+        "stickers": [
+        {
+            "image_file": "love1.png",
+            "emojis": ["☕","🙂"]
+        },
+        {
+            "image_file": "love2.png",
+            "emojis": ["😄","😀"]
+        },
+        {
+            "image_file": "love3.png",
+            "emojis": ["😆","😂"]
+        },
+        {
+            "image_file": "love4.png",
+            "emojis": ["😃", "😍"]
+        },
+        {
+            "image_file": "love5.png",
+            "emojis": ["😭","💧"]
+        },
+        {
+            "image_file": "love6.png",
+            "emojis": ["😍","♥"]
+        },
+        {
+            "image_file": "love7.png",
+            "emojis": ["💔","👎"]
+        },
+        {
+            "image_file": "love8.png",
+            "emojis": ["😍","💑"]
+        },
+        {
+            "image_file": "love9.png",
+            "emojis": ["😘","🍪"]
+        },
+        {
+            "image_file": "love10.png",
+            "emojis": ["🤔","😐"]
+        },
+        {
+            "image_file": "love11.png",
+            "emojis": ["😱","😵"]
+        },
+        {
+            "image_file": "love12.png",
+            "emojis": ["😡","😠"]
+        },
+        {
+            "image_file": "love13.png",
+            "emojis": ["❓","🤔"]
+        },
+        {
+            "image_file": "love14.png",
+            "emojis": ["🌈","😜"]
+        }]
+    },
+{
+"identifier": "Face",
+"name": "Netra Stickers",
+"publisher": "Netra Technosys",
+"tray_image_file" : "faceTray.png",
+"publisher_website" : "",
+"privacy_policy_website" : "",
+"license_agreement_website" : "",
+"stickers": [
+{
+"image_file": "face1.png",
+"emojis": ["☕","🙂"]
+},
+{
+"image_file": "face2.png",
+"emojis": ["😄","😀"]
+},
+{
+"image_file": "face3.png",
+"emojis": ["😆","😂"]
+},
+{
+"image_file": "face4.png",
+"emojis": ["😃", "😍"]
+},
+{
+"image_file": "face5.png",
+"emojis": ["😭","💧"]
+},
+{
+"image_file": "face6.png",
+"emojis": ["😍","♥"]
+},
+{
+"image_file": "face7.png",
+"emojis": ["💔","👎"]
+},
+{
+"image_file": "face8.png",
+"emojis": ["☕","🙂"]
+},
+{
+"image_file": "face9.png",
+"emojis": ["😄","😀"]
+},
+{
+"image_file": "face10.png",
+"emojis": ["😆","😂"]
+},
+{
+"image_file": "face11.png",
+"emojis": ["😃", "😍"]
+},
+{
+"image_file": "face12.png",
+"emojis": ["😭","💧"]
+},
+{
+"image_file": "face13.png",
+"emojis": ["😄","😀"]
+},
+{
+"image_file": "face14.png",
+"emojis": ["😆","😂"]
+},
+{
+"image_file": "face15.png",
+"emojis": ["😃", "😍"]
+},
+{
+"image_file": "face16.png",
+"emojis": ["😭","💧"]
+},
+{
+"image_file": "face17.png",
+"emojis": ["😍","♥"]
+},
+{
+"image_file": "face18.png",
+"emojis": ["💔","👎"]
+},
+{
+"image_file": "face19.png",
+"emojis": ["😍","💑"]
+},
+{
+"image_file": "face20.png",
+"emojis": ["😘","🍪"]
+},
+{
+"image_file": "face21.png",
+"emojis": ["🤔","😐"]
+},
+{
+"image_file": "face22.png",
+"emojis": ["😡","😠"]
+},
+{
+"image_file": "face23.png",
+"emojis": ["❓","🤔"]
+},
+{
+"image_file": "face24.png",
+"emojis": ["🌈","😜"]
+},
+{
+"image_file": "face25.png",
+"emojis": ["💻","😩"]
+},
+{
+"image_file": "face26.png",
+"emojis": ["😡","😤"]
+},
+{
+"image_file": "face27.png",
+"emojis": ["😩","😨"]
+},
+{
+"image_file": "face28.png",
+"emojis": ["😔", "😨"]
+},
+{
+"image_file": "face29.png",
+"emojis": ["🎉","✨"]
+},
+{
+"image_file": "face30.png",
+"emojis": ["🤮","👎"]
+}]
+},
+{
+"identifier": "Food",
+"name": "Netra Stickers",
+"publisher": "Netra Technosys",
+"tray_image_file" : "foodTray.png",
+"publisher_website" : "",
+"privacy_policy_website" : "",
+"license_agreement_website" : "",
+"stickers": [
+{
+"image_file": "food1.png",
+"emojis": ["☕","🙂"]
+},
+{
+"image_file": "food2.png",
+"emojis": ["😄","😀"]
+},
+{
+"image_file": "food3.png",
+"emojis": ["😆","😂"]
+},
+{
+"image_file": "food4.png",
+"emojis": ["😃", "😍"]
+},
+{
+"image_file": "food5.png",
+"emojis": ["😭","💧"]
+},
+{
+"image_file": "food6.png",
+"emojis": ["😍","♥"]
+},
+{
+"image_file": "food7.png",
+"emojis": ["💔","👎"]
+},
+{
+"image_file": "food8.png",
+"emojis": ["😍","💑"]
+},
+{
+"image_file": "food9.png",
+"emojis": ["😘","🍪"]
+},
+{
+"image_file": "food10.png",
+"emojis": ["🤔","😐"]
+},
+{
+"image_file": "food11.png",
+"emojis": ["😱","😵"]
+},
+{
+"image_file": "food12.png",
+"emojis": ["😡","😠"]
+},
+{
+"image_file": "food13.png",
+"emojis": ["❓","🤔"]
+},
+{
+"image_file": "food14.png",
+"emojis": ["🌈","😜"]
+},
+{
+"image_file": "food15.png",
+"emojis": ["💻","😩"]
+},
+{
+"image_file": "food16.png",
+"emojis": ["😡","😤"]
+}]
+},
+{
+"identifier": "Game",
+"name": "Netra Stickers",
+"publisher": "Netra Technosys",
+"tray_image_file" : "gameTray.png",
+"publisher_website" : "",
+"privacy_policy_website" : "",
+"license_agreement_website" : "",
+"stickers": [
+{
+"image_file": "game1.png",
+"emojis": ["☕","🙂"]
+},
+{
+"image_file": "game2.png",
+"emojis": ["😄","😀"]
+},
+{
+"image_file": "game3.png",
+"emojis": ["😆","😂"]
+},
+{
+"image_file": "game4.png",
+"emojis": ["😃", "😍"]
+},
+{
+"image_file": "game5.png",
+"emojis": ["😭","💧"]
+},
+{
+"image_file": "game6.png",
+"emojis": ["😍","♥"]
+},
+{
+"image_file": "game7.png",
+"emojis": ["💔","👎"]
+},
+{
+"image_file": "game8.png",
+"emojis": ["😆","😂"]
+},
+{
+"image_file": "game9.png",
+"emojis": ["😃", "😍"]
+},
+{
+"image_file": "game10.png",
+"emojis": ["😭","♥"]
+},
+{
+"image_file": "game11.png",
+"emojis": ["☕","🙂"]
+},
+{
+"image_file": "game12.png",
+"emojis": ["😄","😀"]
+},
+{
+"image_file": "game13.png",
+"emojis": ["😆","😂"]
+},
+{
+"image_file": "game14.png",
+"emojis": ["😃", "😍"]
+}]
+},
+{
+"identifier": "Gift",
+"name": "Netra Stickers",
+"publisher": "Netra Technosys",
+"tray_image_file" : "giftTray.png",
+"publisher_website" : "",
+"privacy_policy_website" : "",
+"license_agreement_website" : "",
+"stickers": [
+{
+"image_file": "gift1.png",
+"emojis": ["☕","🙂"]
+},
+{
+"image_file": "gift2.png",
+"emojis": ["😄","😀"]
+},
+{
+"image_file": "gift3.png",
+"emojis": ["😆","😂"]
+},
+{
+"image_file": "gift4.png",
+"emojis": ["😃", "😍"]
+},
+{
+"image_file": "gift5.png",
+"emojis": ["😭","💧"]
+},
+{
+"image_file": "gift6.png",
+"emojis": ["😍","♥"]
+},
+{
+"image_file": "gift7.png",
+"emojis": ["💔","👎"]
+},
+{
+"image_file": "gift8.png",
+"emojis": ["😍","💑"]
+},
+{
+"image_file": "gift9.png",
+"emojis": ["😘","🍪"]
+},
+{
+"image_file": "gift10.png",
+"emojis": ["🤔","😐"]
+},
+{
+"image_file": "gift11.png",
+"emojis": ["😱","😵"]
+},
+{
+"image_file": "gift12.png",
+"emojis": ["😡","😠"]
+}]
+},
+{
+"identifier": "BrithDay",
+"name": "Netra Stickers",
+"publisher": "Netra Technosys",
+"tray_image_file" : "hbdTray.png",
+"publisher_website" : "",
+"privacy_policy_website" : "",
+"license_agreement_website" : "",
+"stickers": [
+{
+"image_file": "hbd1.png",
+"emojis": ["☕","🙂"]
+},
+{
+"image_file": "hbd2.png",
+"emojis": ["😄","😀"]
+},
+{
+"image_file": "hbd3.png",
+"emojis": ["😆","😂"]
+},
+{
+"image_file": "hbd4.png",
+"emojis": ["😃", "😍"]
+},
+{
+"image_file": "hbd5.png",
+"emojis": ["☕","🙂"]
+},
+{
+"image_file": "hbd6.png",
+"emojis": ["😄","😀"]
+},
+{
+"image_file": "hbd7.png",
+"emojis": ["😆","😂"]
+},
+{
+"image_file": "hbd8.png",
+"emojis": ["😃", "😍"]
+},
+{
+"image_file": "hbd9.png",
+"emojis": ["😭","💧"]
+},
+{
+"image_file": "hbd10.png",
+"emojis": ["😍","♥"]
+},
+{
+"image_file": "hbd11.png",
+"emojis": ["💔","👎"]
+},
+{
+"image_file": "hbd12.png",
+"emojis": ["😆","😂"]
+}]
+},
+{
+"identifier": "Charecter",
+"name": "Netra Stickers",
+"publisher": "Netra Technosys",
+"tray_image_file" : "characterTray.png",
+"publisher_website" : "",
+"privacy_policy_website" : "",
+"license_agreement_website" : "",
+"stickers": [
+{
+"image_file": "character1.png",
+"emojis": ["☕","🙂"]
+},
+{
+"image_file": "character2.png",
+"emojis": ["😄","😀"]
+},
+{
+"image_file": "character3.png",
+"emojis": ["😆","😂"]
+},
+{
+"image_file": "character4.png",
+"emojis": ["😃", "😍"]
+},
+{
+"image_file": "character5.png",
+"emojis": ["☕","🙂"]
+},
+{
+"image_file": "character6.png",
+"emojis": ["😄","😀"]
+},
+{
+"image_file": "character7.png",
+"emojis": ["😆","😂"]
+},
+{
+"image_file": "character8.png",
+"emojis": ["😃", "😍"]
+},
+{
+"image_file": "character9.png",
+"emojis": ["😭","💧"]
+},
+{
+"image_file": "character10.png",
+"emojis": ["😍","♥"]
+},
+{
+"image_file": "character11.png",
+"emojis": ["💔","👎"]
+},
+{
+"image_file": "character12.png",
+"emojis": ["💔","👎"]
+},
+{
+"image_file": "character13.png",
+"emojis": ["😍","💑"]
+},
+{
+"image_file": "character14.png",
+"emojis": ["😘","🍪"]
+},
+{
+"image_file": "character15.png",
+"emojis": ["🤔","😐"]
+},
+{
+"image_file": "character16.png",
+"emojis": ["😱","😵"]
+},
+{
+"image_file": "character17.png",
+"emojis": ["😃", "😍"]
+},
+{
+"image_file": "character18.png",
+"emojis": ["😭","💧"]
+},
+{
+"image_file": "character19.png",
+"emojis": ["😍","♥"]
+}]
+},
+{
+"identifier": "Emoji",
+"name": "Netra Stickers",
+"publisher": "Netra Technosys",
+"tray_image_file" : "emojiTray.png",
+"publisher_website" : "",
+"privacy_policy_website" : "",
+"license_agreement_website" : "",
+"stickers": [
+{
+"image_file": "emoji1.png",
+"emojis": ["☕","🙂"]
+},
+{
+"image_file": "emoji2.png",
+"emojis": ["😄","😀"]
+},
+{
+"image_file": "emoji3.png",
+"emojis": ["😆","😂"]
+},
+{
+"image_file": "emoji4.png",
+"emojis": ["😃", "😍"]
+},
+{
+"image_file": "emoji5.png",
+"emojis": ["😭","💧"]
+},
+{
+"image_file": "emoji6.png",
+"emojis": ["😍","♥"]
+},
+{
+"image_file": "emoji7.png",
+"emojis": ["💔","👎"]
+},
+{
+"image_file": "emoji8.png",
+"emojis": ["😍","💑"]
+},
+{
+"image_file": "emoji9.png",
+"emojis": ["😘","🍪"]
+},
+{
+"image_file": "emoji10.png",
+"emojis": ["🤔","😐"]
+},
+{
+"image_file": "emoji11.png",
+"emojis": ["😱","😵"]
+},
+{
+"image_file": "emoji12.png",
+"emojis": ["😡","😠"]
+},
+{
+"image_file": "emoji13.png",
+"emojis": ["❓","🤔"]
+},
+{
+"image_file": "emoji14.png",
+"emojis": ["🌈","😜"]
+},
+{
+"image_file": "emoji15.png",
+"emojis": ["💻","😩"]
+},
+{
+"image_file": "emoji16.png",
+"emojis": ["😡","😤"]
+},
+{
+"image_file": "emoji17.png",
+"emojis": ["😩","😨"]
+},
+{
+"image_file": "emoji18.png",
+"emojis": ["😔", "😨"]
+},
+{
+"image_file": "emoji19.png",
+"emojis": ["🎉","✨"]
+},
+{
+"image_file": "emoji20.png",
+"emojis": ["🤮","👎"]
+},
+{
+"image_file": "emoji21.png",
+"emojis": ["🖐","🙋"]
+},
+{
+"image_file": "emoji22.png",
+"emojis": ["🖐","👋"]
+},
+{
+"image_file": "emoji23.png",
+"emojis": ["🖐","👋"]
+},
+{
+"image_file": "emoji24.png",
+"emojis": ["🎉","✨"]
+},
+{
+"image_file": "emoji25.png",
+"emojis": ["🤮","👎"]
+},
+{
+"image_file": "emoji26.png",
+"emojis": ["🖐","🙋"]
+},
+{
+"image_file": "emoji27.png",
+"emojis": ["🖐","👋"]
+},
+{
+"image_file": "emoji28.png",
+"emojis": ["🖐","👋"]
+},
+{
+"image_file": "emoji29.png",
+"emojis": ["🖐","👋"]
+}]
+},
+{
+"identifier": "Teddy",
+"name": "Netra Stickers",
+"publisher": "Netra Technosys",
+"tray_image_file" : "teddyTray.png",
+"publisher_website" : "",
+"privacy_policy_website" : "",
+"license_agreement_website" : "",
+"stickers": [
+{
+"image_file": "teddy1.png",
+"emojis": ["☕","🙂"]
+},
+{
+"image_file": "teddy2.png",
+"emojis": ["😄","😀"]
+},
+{
+"image_file": "teddy3.png",
+"emojis": ["😆","😂"]
+},
+{
+"image_file": "teddy4.png",
+"emojis": ["😃", "😍"]
+},
+{
+"image_file": "teddy5.png",
+"emojis": ["😭","💧"]
+},
+{
+"image_file": "teddy6.png",
+"emojis": ["😍","♥"]
+},
+{
+"image_file": "teddy7.png",
+"emojis": ["💔","👎"]
+},
+{
+"image_file": "teddy8.png",
+"emojis": ["😍","💑"]
+},
+{
+"image_file": "teddy9.png",
+"emojis": ["😘","🍪"]
+},
+{
+"image_file": "teddy10.png",
+"emojis": ["🤔","😐"]
+},
+{
+"image_file": "teddy11.png",
+"emojis": ["😱","😵"]
+},
+{
+"image_file": "teddy12.png",
+"emojis": ["😡","😠"]
+},
+{
+"image_file": "teddy13.png",
+"emojis": ["❓","🤔"]
+},
+{
+"image_file": "teddy14.png",
+"emojis": ["🌈","😜"]
+},
+{
+"image_file": "teddy15.png",
+"emojis": ["💻","😩"]
+},
+{
+"image_file": "teddy16.png",
+"emojis": ["😡","😤"]
+},
+{
+"image_file": "teddy17.png",
+"emojis": ["🖐","👋"]
+}]
+},
+{
+"identifier": "Selfie",
+"name": "Netra Stickers",
+"publisher": "Netra Technosys",
+"tray_image_file" : "selfieTray.png",
+"publisher_website" : "",
+"privacy_policy_website" : "",
+"license_agreement_website" : "",
+"stickers": [
+{
+"image_file": "selfie1.png",
+"emojis": ["☕","🙂"]
+},
+{
+"image_file": "selfie2.png",
+"emojis": ["😄","😀"]
+},
+{
+"image_file": "selfie3.png",
+"emojis": ["😆","😂"]
+},
+{
+"image_file": "selfie4.png",
+"emojis": ["😃", "😍"]
+},
+{
+"image_file": "selfie5.png",
+"emojis": ["😭","💧"]
+},
+{
+"image_file": "selfie6.png",
+"emojis": ["😍","♥"]
+},
+{
+"image_file": "selfie7.png",
+"emojis": ["💔","👎"]
+},
+{
+"image_file": "selfie8.png",
+"emojis": ["☕","🙂"]
+},
+{
+"image_file": "selfie9.png",
+"emojis": ["😄","😀"]
+},
+{
+"image_file": "selfie10.png",
+"emojis": ["😆","😂"]
+},
+{
+"image_file": "selfie11.png",
+"emojis": ["😃", "😍"]
+},
+{
+"image_file": "selfie12.png",
+"emojis": ["😭","💧"]
+},
+{
+"image_file": "selfie13.png",
+"emojis": ["😄","😀"]
+},
+{
+"image_file": "selfie14.png",
+"emojis": ["😆","😂"]
+},
+{
+"image_file": "selfie15.png",
+"emojis": ["😃", "😍"]
+},
+{
+"image_file": "selfie16.png",
+"emojis": ["😭","💧"]
+},
+{
+"image_file": "selfie17.png",
+"emojis": ["😍","♥"]
+},
+{
+"image_file": "selfie18.png",
+"emojis": ["💔","👎"]
+},
+{
+"image_file": "selfie19.png",
+"emojis": ["😍","💑"]
+},
+{
+"image_file": "selfie20.png",
+"emojis": ["😘","🍪"]
+},
+{
+"image_file": "selfie21.png",
+"emojis": ["🤔","😐"]
+},
+{
+"image_file": "selfie22.png",
+"emojis": ["😡","😠"]
+},
+{
+"image_file": "selfie23.png",
+"emojis": ["❓","🤔"]
+},
+{
+"image_file": "selfie24.png",
+"emojis": ["🌈","😜"]
+},
+{
+"image_file": "selfie25.png",
+"emojis": ["💻","😩"]
+},
+{
+"image_file": "selfie26.png",
+"emojis": ["😡","😤"]
+},
+{
+"image_file": "selfie27.png",
+"emojis": ["😩","😨"]
+},
+{
+"image_file": "selfie28.png",
+"emojis": ["😔", "😨"]
+},
+{
+"image_file": "selfie29.png",
+"emojis": ["🎉","✨"]
+},
+{
+"image_file": "selfie30.png",
+"emojis": ["🤮","👎"]
+}]
+}]
+}

@@ -1,0 +1,35 @@
+PODS:
+  - ARSLineProgress (3.1.0)
+  - ColorSlider (4.4)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - PinterestLayout (1.0.3)
+  - TLPhotoPicker (1.9.9)
+
+DEPENDENCIES:
+  - ARSLineProgress
+  - ColorSlider (~> 4.4)
+  - NVActivityIndicatorView
+  - PinterestLayout
+  - TLPhotoPicker
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ARSLineProgress
+    - ColorSlider
+    - NVActivityIndicatorView
+    - PinterestLayout
+  trunk:
+    - TLPhotoPicker
+
+SPEC CHECKSUMS:
+  ARSLineProgress: 60778657c69491796c3faf5b834c72924c405833
+  ColorSlider: 9a888e65b871fa1e6a26fadebf4931c949935681
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  PinterestLayout: f1c7ec0254ffa842d69f1b43e4436c8ded4359b9
+  TLPhotoPicker: 95cbd6d8f66fca5a4ddd8167db5081e1ed676322
+
+PODFILE CHECKSUM: 6ba43e3df8599164f65f960a2d40f0c74ba54f2a
+
+COCOAPODS: 1.8.0.beta.2

@@ -1,0 +1,2272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00640013C91346449891CEAAC4F5C689 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC2AD0BA8F1551AF31C98FA547E4A4A /* NVActivityIndicatorAnimationBallTrianglePath.swift */; };
+		00C250907C31BD7CD6F6FBCF6C160979 /* NVActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0955BE002FCAA1FD004258A95148710C /* NVActivityIndicatorAnimationPacman.swift */; };
+		063E0A231A62F5D1B7AEFA52F61CBE8C /* NVActivityIndicatorViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0F8F670936BF47E23FF053E08B2304 /* NVActivityIndicatorViewable.swift */; };
+		066329E11B50EA14CC5CB95B1977B1B3 /* PinterestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF95EF53B959ECECE9A2A5D9034DCBB7 /* PinterestVC.swift */; };
+		088D1B4FFBF195E2C5F971CE6E01F306 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED19BFF8286F2A43A809198E864FA41 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */; };
+		0F98BE579D2DF8F104DEC2BB5CA6BB2D /* TLPhotoPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C67B3693C78BFDA23FEB8877CF58F333 /* TLPhotoPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		108F83678500372D52EF9CD643787ECC /* ARSStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89E3CC4846ECC3D651440E3DB0088FD /* ARSStatus.swift */; };
+		155F9E5F0BF8D83F3CDD0DBE0C586AA1 /* ARSLineProgressHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B76E934A0683BBA9778A53FD3633AB /* ARSLineProgressHelpers.swift */; };
+		15D321B1C5E2CA32B8EE57DB73C92575 /* ARSLineProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E696340F26C29375434C24781C02CE8 /* ARSLineProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18D3B316ACCF21376DE24F8E443355FF /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FED3EFA446DD63804902E8F655DE98B /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
+		1A1DA42B92EF2DC0D9C4299F2F37C2EE /* Pods-Netra Pubg StickersUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B75EF58022F8CF1F480DD65B58A91A6 /* Pods-Netra Pubg StickersUITests-dummy.m */; };
+		1CC464BE1E583E5160D751E207F3BFE7 /* ColorSliderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92349CF9BE7A3709565F69EB618A937 /* ColorSliderExtensions.swift */; };
+		2367BB651990AFFA2FBDF8338C58FED0 /* ARSLineProgressCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123EB0E461F3BBB9031AA4E9618CDA94 /* ARSLineProgressCustomization.swift */; };
+		23CFCA220D10319B40A4A7AFB16205E7 /* NVActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D58B4C2EFF816158D7A0DA90BA7A3 /* NVActivityIndicatorAnimationBallScale.swift */; };
+		28415D1AD3E62672071C216C47EFA0E2 /* PinterestLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B3C3552440090E35E9B03AB8438578C /* PinterestLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		300630A51DE25B990A2C4B5BA0F44E7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		31F570C9F4C083F5A7D4060CEA42435F /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE4439221844B67C536F59254AA093 /* PreviewView.swift */; };
+		32B0706EF583EC48078886ED3FFA3C8A /* ColorSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 477E748313500A420E7993476857C837 /* ColorSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34798F1AF2593E71F37D22B860D1AA6B /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABD455BBFB8F91666F518636B212B79 /* NVActivityIndicatorAnimationLineScaleParty.swift */; };
+		34EAD3AC0DA6222809E7914E45208093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		35D6DECF268E745B957043D8F372BD22 /* Pods-Netra Pubg StickersUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F29677F4A15C7BADA227DB3249EA37 /* Pods-Netra Pubg StickersUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38BB4CA7DC4C632D8A40A1A62CD4F88A /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C883E0359A926D998BFA3B80EDEC8 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
+		39AF1B7D71211DB608677E5E044ACB21 /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AC1333E31B08A6CC2DB6DC680A94B6 /* ColorSlider.swift */; };
+		3C54457A420C45E7CCAD9BC2D020BBB6 /* Pods-Netra Pubg Stickers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F219C7469BE9C2252853C7D6FD60806 /* Pods-Netra Pubg Stickers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D3284D1B236580D227E2AE67BB7204A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */; };
+		3E40981C139A575DEEF64DFA7BEDF74A /* TLPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker.bundle */; };
+		40BA6159A42B4F5968588276FAAF89DA /* TLCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 405B4728136F18F6D2159C1C1EAEC684 /* TLCollectionTableViewCell.xib */; };
+		41588F19B37122FE95EE3374E30E8608 /* PinterestLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E78F9E30DC8107A03E91C6BD2CB0FB6B /* PinterestLayout-dummy.m */; };
+		417CE5FA6754749FC18BB7FE1B1D8D9F /* Pods-iMessagePubGStickers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D267B5B76B60CD9477B41AAFDCB6609 /* Pods-iMessagePubGStickers-dummy.m */; };
+		43C77028EF8079B6F6D5224EF7FF034A /* ARSProgressLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80BD525D7515B948C58D8EC041563FB /* ARSProgressLoader.swift */; };
+		457E2722877BAC6B250EDAEBE07B179F /* ColorSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A023591E8DB0BDB32E08C605D54B310 /* ColorSlider-dummy.m */; };
+		47DDB54E86DBCC5146BDAA6A1040D453 /* TLPhotoPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EAEBF5945ED50B0BC83106F7FAB717FF /* TLPhotoPickerController.bundle */; };
+		49CD0AF62D26E8B691207DA6E47E6249 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2577125D71637E882F3ECFE236C30B36 /* NVActivityIndicatorAnimationBallClipRotate.swift */; };
+		4FEF425AA81B02F1CF80C80AA103AF7B /* NVActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B78F77A986281680C970607912DE0486 /* NVActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52F9CBC412C565EBAC2130E971F3692A /* ARSLineProgressProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FB46B1D3F8AEAB919B2A50CA9B8549 /* ARSLineProgressProtocols.swift */; };
+		5388114E41FB12FFDEF3F28A3C27F5B8 /* TLBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B0DA4473BB505D1676D0FAC331404 /* TLBundle.swift */; };
+		54C5CC95513F4B361BA0F784818DD6E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */; };
+		55602BE8A67E44301481597D8DE5B677 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6447C87FDB16685A8D609FF9206FFA18 /* NVActivityIndicatorAnimationBallRotate.swift */; };
+		5CC2AF6D019E010B9CBD0BDE9061009B /* TLPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E627F1C857BD6B971B4722A515C5D /* TLPhotoCollectionViewCell.swift */; };
+		5E83A81465CB917AD6338D7AF1853F3E /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F0D751CA51912E3CA9B5845B22CA98 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
+		5F6E26EEBF52CD95E4FFEEEAACF7C795 /* TLPhotopickerDataSourcesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A293B4FE7700B7094F57C4C31F97AC3 /* TLPhotopickerDataSourcesProtocol.swift */; };
+		6033B51021E10F40310F40645A99EC65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */; };
+		61204A50B1F6F2E35861A5E9079BBECE /* TLPhotosPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3639F93420B91B78AD970AF7980768 /* TLPhotosPickerViewController.swift */; };
+		64D21D931F9B6CECCFB1E17CE32DD3C2 /* Pods-Netra Pubg StickersTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8C02EA86BBB6C8E841AFBD909973D /* Pods-Netra Pubg StickersTests-dummy.m */; };
+		6608117DFF47DEB3554446BBEFB61589 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC3C5CE910078B91010A0058CDE7025 /* GradientView.swift */; };
+		69BF4B71FF5D9974FEA12A55FEFCFF8F /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33140B22E21F6841CC08908A5C052F94 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */; };
+		739AA69BF3B6A9747201587D067DC14C /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C627D561F7352037493AEC4A89D6E5D1 /* NVActivityIndicatorAnimationAudioEqualizer.swift */; };
+		73F366235A97A2AF6CD0ABD36B8C3918 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A6763A3D3AAEA46259DC9F02E4A3B /* NVActivityIndicatorAnimationBallGridPulse.swift */; };
+		797FC27F92CB14544D03CF0E00BE0822 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EFDA1658AE617DFC0439A7A1C82810 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */; };
+		7B63048690E3EFD4D67EFA53CD786319 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */; };
+		7CAA65050EAE8A3D320E0B33DD17305B /* NVActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0C27D00D62BBF91CBA568BDEF59C10 /* NVActivityIndicatorAnimationLineScale.swift */; };
+		7E999471175A08B9003E0A184BC70390 /* TLPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512C5C942E529CB768261EDA1951F626 /* TLPhotoLibrary.swift */; };
+		7FB11CEBFC5B8B2EDB78BD5D723B2245 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		81D61BFF8043F43F96FCA5D0BACE8D53 /* TLPhotosPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA2FF939714F9F0CA7D49A689016173 /* TLPhotosPickerViewController.xib */; };
+		81DAF62D21712670F61159BC27951341 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403A8BA99030199A40765FDF4A9EBD0 /* NVActivityIndicatorAnimationBallBeat.swift */; };
+		85EE677C8757712A703AFD3824FB0153 /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AE0D0DD8943DF85406D25C93637B15 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */; };
+		8954FEE275D34105FCA3C2D963075B6D /* ARSInfiniteLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2053079B4871D0AE3A3A8AC16711663 /* ARSInfiniteLoader.swift */; };
+		8A1515E2E4DED46BDCDFE8D65D8BF0E1 /* ARSLineProgressConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791722A9F998E43CCE254DEABD31D47 /* ARSLineProgressConstants.swift */; };
+		8B27C2BF8404A535D5BF6068F12DA716 /* TLPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F87089CD2CB2D1C6940A35BB028FB798 /* TLPhotoCollectionViewCell.xib */; };
+		8D51218EE9F8D1E39635150C6CCC9BC3 /* ARSLineProgressTypeAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21682837D7685073C0177DBE7708BAEF /* ARSLineProgressTypeAliases.swift */; };
+		901717348C81BB0CEF9E967E844B4B8C /* ARSLineProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D961CCF1A09DAB865725BC47941C877 /* ARSLineProgress.swift */; };
+		9209EF6A87C503DF3C409E91924DACDD /* NVActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B3A40E12C40666AFE97FCB3D38C266 /* NVActivityIndicatorAnimationBallPulse.swift */; };
+		944FFDF44E5977D416AB5FCB803643DD /* PinterestLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83153227C70F01283B0762FC529E3BDE /* PinterestLayoutDelegate.swift */; };
+		946CD732AF440B6B9236CAA01083BA43 /* Pods-Netra Pubg StickersTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D16460663FBA2A220CB09D4AC0E30A11 /* Pods-Netra Pubg StickersTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96F9C58704D9774946612F82CEC6A9DD /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447478AFF0BB809EC77DD73B75B8595E /* Gradient.swift */; };
+		9949F4C822F89A3BA5AA75C0C0165E32 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5512936AC7CE5405B8810695D81A2 /* NVActivityIndicatorAnimationBallRotateChase.swift */; };
+		9F186C1C84918F493B7336B85973E4AE /* TLPhotoPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F64C09427D567BDA911F9D62CC7BC /* TLPhotoPicker-dummy.m */; };
+		9FC1C863E4F4279B2F875C1F863E04A3 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB771B7A4E487416A91B4BBBC554CE10 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */; };
+		A3FEC5AAEF5841875C90EAA04A824277 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		A54422D64A06F3B8C07FF01FE18D256F /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C3FC76E208D3CE1FA53C3045D693A /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
+		A66D34285E92802CDCC4AAEC56BA2D0B /* PinterestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86FB6957DFCF582C550D5238464D2DB /* PinterestCell.swift */; };
+		A784D740D0023B5253FCACE3B0BB7045 /* Pods-iMessagePubGStickers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C20F454000EF86CC57EBF6D1E7A38E4 /* Pods-iMessagePubGStickers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3378163E43FB057CB59BE143CCADF9F /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532E312A7F0D258697E61607B4C70D80 /* Help.swift */; };
+		B55E5F7C3559316ABBAD12774DD9E7F3 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAC6A28259875AF02FFFE8A0BF5EB1 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */; };
+		B64D07267C9F00F9B9A4E67392000CA4 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50D00CE320F1F076111B42A3FDD4857 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
+		B7D6A4F91832583596E08F096E16843C /* ARSLineProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C46FB1C71CE42E34CACF68D6F3EC85E /* ARSLineProgress-dummy.m */; };
+		BA40588701247416D36537D1EC065931 /* NVActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE2A83C4D45003A624AEE198D129C14 /* NVActivityIndicatorAnimationBlank.swift */; };
+		BA5D029B0EB9D152BB0A11ECC9732DD5 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F5D9CD78EFF28A19978EDC8B28E0E2 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
+		BE10EFA3F22D516458B04373C7F1DEEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		BF4107A462C6AA1C2D361B17B67C3BC3 /* NVActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6959A24BCE0846A396D6F18285FE365 /* NVActivityIndicatorPresenter.swift */; };
+		BF9E30025CF0D786A102F577C3DDD387 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DD4A0386E75F9F2827D58F0C372572 /* NVActivityIndicatorAnimationBallGridBeat.swift */; };
+		C06909BBDAAD9A6C31D3FB2FD3BAD93E /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0842960DFC63913B499A1DD076FD5316 /* NVActivityIndicatorView.swift */; };
+		C203ED879337FA33BC3358D773CEEC81 /* ARSLineProgressExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC252894FADDEAC512409D0924D15C03 /* ARSLineProgressExtensions.swift */; };
+		CA40DB89394085FBBBE4B0D5A40DA340 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA7AEDEB948ED1D3F5A3C759C5A9147 /* NVActivityIndicatorAnimationBallScaleRipple.swift */; };
+		CA5A2B0B83A55942F6CBA31560EEB3C0 /* HSBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC3C5E1BAD84F7160CB7F559DA5A6B /* HSBColor.swift */; };
+		CA78AD1389672719FD41C42EF1DA1057 /* Pods-Netra Pubg Stickers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC9B1CD6488E1227F6D1DD5A85A5CF4 /* Pods-Netra Pubg Stickers-dummy.m */; };
+		CAD3EA6AB72EAB20BC8B526A9037FBD3 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575B8D0566DC86ECD9E7CCC84E99BDEE /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */; };
+		CB8F00A4211E359FC3E701CF0D9A69C7 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7C7E7DE0454EFDF27A2407E9101E7 /* PinterestLayout.swift */; };
+		CE4CC2301A717EDFE1881D6C958BF791 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163FD8BB527E5DFA7FC946556B2C822D /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
+		D98F26017BAF92CC7211C077750D942F /* DefaultPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899EE9A3526402FB8B0032D6160DBE8 /* DefaultPreviewView.swift */; };
+		DBC908168E6099E6842155A7E5F1E328 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9980C2734AEF4FBFE793563471941D3B /* NVActivityIndicatorAnimationCubeTransition.swift */; };
+		E058420E139C45F11C6220810F9F89BC /* NVActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C351359CC7AD6FE4DBC6E7B9057C325 /* NVActivityIndicatorView-dummy.m */; };
+		E1D169DD2A73355BB87CFC7EBC69716E /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB8169E97BDA9B350A3CCDBAC645032 /* NVActivityIndicatorAnimationSquareSpin.swift */; };
+		E235043951A82BF949762434A2B280E7 /* NVActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8340A7EF857E442B568F7838A44A89 /* NVActivityIndicatorShape.swift */; };
+		E2E7C547C9DE21C008E067386A828E01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */; };
+		E36A2CB59E38C32380DE3EAB83A3A143 /* TLAssetsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6B72C2D27EE6CB45E78B622F1F3500 /* TLAssetsCollection.swift */; };
+		E8004F6422653359C4C96C6FA704A1B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		E958B4A049EE0B62FBD2B0B6F001A660 /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7451C03F3E5FC9CFE69224670ACA421 /* NVActivityIndicatorAnimationOrbit.swift */; };
+		ED837F96403A20322FAED9C51542F666 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D5BA3B73E71D29DFAC47AD1F9B247D /* NVActivityIndicatorAnimationBallZigZag.swift */; };
+		EEA52F7FA08A1ADCE53658D884E79313 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		EEEAAD7A83977059AB41FF5FA746A9BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		EFD6F56A132D7598A513E06A5D0A2189 /* TLAssetCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE3AADCA01C6887C39F51567CD0C80 /* TLAssetCollection+Extension.swift */; };
+		F03181D5857E1415AD309B073EA001D2 /* SynchronizedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87F2FE0CBCEBFF2C919BB8FD2FD5CC3 /* SynchronizedDictionary.swift */; };
+		F30CF20A424FFB2987EE926804F68EBE /* PinterestLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629529CF1D4AFF72D72178FF24DE7FDF /* PinterestLayoutAttributes.swift */; };
+		F4AB070792FBEFFBFAA96D2EA18BD3E1 /* NVActivityIndicatorAnimationBallDoubleBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFEB518E1484EF57D53616DA96FBF9C /* NVActivityIndicatorAnimationBallDoubleBounce.swift */; };
+		F88C12156EA3A09B55BC72D278BF167A /* TLCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A5F8A1FC9B0FEC8A3B3F8E3F5C7AE /* TLCollectionTableViewCell.swift */; };
+		FAC61F01DD9859E1B5672D732E3153F0 /* TLAlbumPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E07875D1EF6958F41B8B25B052A02F9 /* TLAlbumPopView.swift */; };
+		FC424F3BE1C5E3258FE456F6D35391D1 /* NVActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58926B228E015F22A541D4259DABEE8 /* NVActivityIndicatorAnimationDelegate.swift */; };
+		FE7F20843BE77164C865CCA5DBA6FA09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11B7B957CABAEFE68C60279BDC703ECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218958C98F6C1DD6057B80892D437385;
+			remoteInfo = "Pods-Netra Pubg Stickers";
+		};
+		18227C1893684CEE866EBE319B57A3DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF8A82876C43F4DFD625D1823E680EAC;
+			remoteInfo = NVActivityIndicatorView;
+		};
+		1FF5DEB43724377D667D8CACEA35A83C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E3469B000FE3C67BAD723C2FB400BCC;
+			remoteInfo = ColorSlider;
+		};
+		47B2F458D15CBABC036371344278655C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83EDB7337C58E9B750658B98269B63D9;
+			remoteInfo = PinterestLayout;
+		};
+		7CAEB8A96294256BA75091DAEEC1185F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9241C3812D02BCBB2AA4D3936BD3909;
+			remoteInfo = TLPhotoPicker;
+		};
+		9753EF52AB253E6CE307AE225F64E7ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0AD83FC0A50CCD2BA6202A19DDA01AB;
+			remoteInfo = ARSLineProgress;
+		};
+		A2F28D743ED57A32ECD4E9B1ED969623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218958C98F6C1DD6057B80892D437385;
+			remoteInfo = "Pods-Netra Pubg Stickers";
+		};
+		EE1BB9F179A05902E63D4A99D1C63CE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E25D4105A6FD573D0B380E936CC9E11;
+			remoteInfo = "TLPhotoPicker-TLPhotoPicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E81A88B9DE6EA106EC19C0E2CEBED7 /* PinterestLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinterestLayout.xcconfig; sourceTree = "<group>"; };
+		0842960DFC63913B499A1DD076FD5316 /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorView.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorView.swift; sourceTree = "<group>"; };
+		0955BE002FCAA1FD004258A95148710C /* NVActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationPacman.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
+		0A023591E8DB0BDB32E08C605D54B310 /* ColorSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorSlider-dummy.m"; sourceTree = "<group>"; };
+		0B3B5FD50E5A78635DA35EB2BC66B087 /* TLPhotoPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLPhotoPicker.modulemap; sourceTree = "<group>"; };
+		0E9D61F5BA216371214F9E183C9BCDB1 /* ARSLineProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ARSLineProgress.modulemap; sourceTree = "<group>"; };
+		0F8340A7EF857E442B568F7838A44A89 /* NVActivityIndicatorShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorShape.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorShape.swift; sourceTree = "<group>"; };
+		123EB0E461F3BBB9031AA4E9618CDA94 /* ARSLineProgressCustomization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARSLineProgressCustomization.swift; path = Source/ARSLineProgressCustomization.swift; sourceTree = "<group>"; };
+		12C3F8C43AB8B93634EA1042189ECC7C /* PinterestLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PinterestLayout-Info.plist"; sourceTree = "<group>"; };
+		163FD8BB527E5DFA7FC946556B2C822D /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseRise.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
+		1791722A9F998E43CCE254DEABD31D47 /* ARSLineProgressConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARSLineProgressConstants.swift; path = Source/ARSLineProgressConstants.swift; sourceTree = "<group>"; };
+		183A6763A3D3AAEA46259DC9F02E4A3B /* NVActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridPulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
+		18BE3AADCA01C6887C39F51567CD0C80 /* TLAssetCollection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TLAssetCollection+Extension.swift"; path = "TLPhotoPicker/Classes/TLAssetCollection+Extension.swift"; sourceTree = "<group>"; };
+		1D961CCF1A09DAB865725BC47941C877 /* ARSLineProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARSLineProgress.swift; path = Source/ARSLineProgress.swift; sourceTree = "<group>"; };
+		1E4D74453B6B5B0F910B2218EA3538CF /* Pods-Netra Pubg StickersTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Netra Pubg StickersTests.modulemap"; sourceTree = "<group>"; };
+		20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		21682837D7685073C0177DBE7708BAEF /* ARSLineProgressTypeAliases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARSLineProgressTypeAliases.swift; path = Source/ARSLineProgressTypeAliases.swift; sourceTree = "<group>"; };
+		219E8ED2D58591EB8D175D0A728B19A2 /* Pods-iMessagePubGStickers-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iMessagePubGStickers-acknowledgements.plist"; sourceTree = "<group>"; };
+		255EAFBCBF89FA4D1F5D1011E6155A4B /* Pods-Netra Pubg StickersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Netra Pubg StickersTests.release.xcconfig"; sourceTree = "<group>"; };
+		2577125D71637E882F3ECFE236C30B36 /* NVActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotate.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
+		2737FB1C2C6C1B666B82837DEC6AEF26 /* NVActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NVActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
+		27DD38A2FA5D3179370ABDA3231258AF /* TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
+		28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TLPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		297B92C05A2C6BAA58E3C942293D383E /* ARSLineProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARSLineProgress-prefix.pch"; sourceTree = "<group>"; };
+		2B75EF58022F8CF1F480DD65B58A91A6 /* Pods-Netra Pubg StickersUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Netra Pubg StickersUITests-dummy.m"; sourceTree = "<group>"; };
+		2DC2AD0BA8F1551AF31C98FA547E4A4A /* NVActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallTrianglePath.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
+		2EC8BF6E668A2E7FBCA77580EB5C8E27 /* PinterestLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PinterestLayout.modulemap; sourceTree = "<group>"; };
+		2F219C7469BE9C2252853C7D6FD60806 /* Pods-Netra Pubg Stickers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Netra Pubg Stickers-umbrella.h"; sourceTree = "<group>"; };
+		326F7FEB33DA74A80C1427A6A837AA0A /* Pods-Netra Pubg StickersUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Netra Pubg StickersUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		33140B22E21F6841CC08908A5C052F94 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationTriangleSkewSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
+		33E7326983A0A7391D194DC794090F5B /* Pods-iMessagePubGStickers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iMessagePubGStickers.modulemap"; sourceTree = "<group>"; };
+		36F0D751CA51912E3CA9B5845B22CA98 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
+		373C883E0359A926D998BFA3B80EDEC8 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineSpinFadeLoader.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
+		37B3A40E12C40666AFE97FCB3D38C266 /* NVActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
+		39B76E934A0683BBA9778A53FD3633AB /* ARSLineProgressHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARSLineProgressHelpers.swift; path = Source/ARSLineProgressHelpers.swift; sourceTree = "<group>"; };
+		3C351359CC7AD6FE4DBC6E7B9057C325 /* NVActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		3D267B5B76B60CD9477B41AAFDCB6609 /* Pods-iMessagePubGStickers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iMessagePubGStickers-dummy.m"; sourceTree = "<group>"; };
+		3ECC3BB8A70A8F9F28659B6F3CFBD94B /* Pods-Netra Pubg StickersUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Netra Pubg StickersUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3FB3216D47E64F3B20ECB0ED4C7A4A98 /* Pods-Netra Pubg StickersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Netra Pubg StickersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		405B4728136F18F6D2159C1C1EAEC684 /* TLCollectionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLCollectionTableViewCell.xib; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.xib; sourceTree = "<group>"; };
+		41961233AE4D25C9FAFA5DB36B924ECB /* Pods-Netra Pubg Stickers-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Netra Pubg Stickers-acknowledgements.plist"; sourceTree = "<group>"; };
+		419849D94C8FE9EE931FA15260B06A31 /* Pods-Netra Pubg Stickers-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Netra Pubg Stickers-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4260D71095278C8E1B8FBB23C49A5696 /* Pods-iMessagePubGStickers-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iMessagePubGStickers-acknowledgements.markdown"; sourceTree = "<group>"; };
+		42EFDA1658AE617DFC0439A7A1C82810 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
+		4305DBB6CC294B346CB407220CA99ADA /* Pods-Netra Pubg Stickers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Netra Pubg Stickers.debug.xcconfig"; sourceTree = "<group>"; };
+		435B0DA4473BB505D1676D0FAC331404 /* TLBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLBundle.swift; path = TLPhotoPicker/Classes/TLBundle.swift; sourceTree = "<group>"; };
+		447478AFF0BB809EC77DD73B75B8595E /* Gradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gradient.swift; path = Sources/Internal/Gradient.swift; sourceTree = "<group>"; };
+		448E8A9550F8E0858683BF3A4E8905D5 /* Pods-Netra Pubg Stickers-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Netra Pubg Stickers-frameworks.sh"; sourceTree = "<group>"; };
+		44CED369DF1EC9465DB717BFB73E62F9 /* Pods-Netra Pubg StickersUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Netra Pubg StickersUITests.modulemap"; sourceTree = "<group>"; };
+		477E748313500A420E7993476857C837 /* ColorSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorSlider-umbrella.h"; sourceTree = "<group>"; };
+		4B3C3552440090E35E9B03AB8438578C /* PinterestLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinterestLayout-umbrella.h"; sourceTree = "<group>"; };
+		4F2A5F8A1FC9B0FEC8A3B3F8E3F5C7AE /* TLCollectionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLCollectionTableViewCell.swift; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.swift; sourceTree = "<group>"; };
+		512C5C942E529CB768261EDA1951F626 /* TLPhotoLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoLibrary.swift; path = TLPhotoPicker/Classes/TLPhotoLibrary.swift; sourceTree = "<group>"; };
+		51CBF8D477ED8BEDAFEAEC3458FE67DD /* Pods_iMessagePubGStickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMessagePubGStickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		532E312A7F0D258697E61607B4C70D80 /* Help.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Help.swift; path = PinterestLayout/Help.swift; sourceTree = "<group>"; };
+		56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		575B8D0566DC86ECD9E7CCC84E99BDEE /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotatePulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
+		59A6C13DFBADA36082D2ACC9CFE5E05D /* PinterestLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinterestLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A293B4FE7700B7094F57C4C31F97AC3 /* TLPhotopickerDataSourcesProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotopickerDataSourcesProtocol.swift; path = TLPhotoPicker/Classes/TLPhotopickerDataSourcesProtocol.swift; sourceTree = "<group>"; };
+		5ABD455BBFB8F91666F518636B212B79 /* NVActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScaleParty.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
+		5C20F454000EF86CC57EBF6D1E7A38E4 /* Pods-iMessagePubGStickers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iMessagePubGStickers-umbrella.h"; sourceTree = "<group>"; };
+		5E0F8F670936BF47E23FF053E08B2304 /* NVActivityIndicatorViewable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorViewable.swift; path = Source/NVActivityIndicatorView/Presenter/NVActivityIndicatorViewable.swift; sourceTree = "<group>"; };
+		629529CF1D4AFF72D72178FF24DE7FDF /* PinterestLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinterestLayoutAttributes.swift; path = PinterestLayout/PinterestLayoutAttributes.swift; sourceTree = "<group>"; };
+		6447C87FDB16685A8D609FF9206FFA18 /* NVActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotate.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
+		663D2E72AA1113C21C9A40DC1EBBD268 /* ARSLineProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ARSLineProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E5512936AC7CE5405B8810695D81A2 /* NVActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotateChase.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
+		6AD8C02EA86BBB6C8E841AFBD909973D /* Pods-Netra Pubg StickersTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Netra Pubg StickersTests-dummy.m"; sourceTree = "<group>"; };
+		6BC9B1CD6488E1227F6D1DD5A85A5CF4 /* Pods-Netra Pubg Stickers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Netra Pubg Stickers-dummy.m"; sourceTree = "<group>"; };
+		6C0ACC0CED8538C54BB90148BE1B1894 /* ColorSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorSlider.xcconfig; sourceTree = "<group>"; };
+		6EA7AEDEB948ED1D3F5A3C759C5A9147 /* NVActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRipple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
+		6FED3EFA446DD63804902E8F655DE98B /* NVActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseSync.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
+		762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78F29677F4A15C7BADA227DB3249EA37 /* Pods-Netra Pubg StickersUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Netra Pubg StickersUITests-umbrella.h"; sourceTree = "<group>"; };
+		7924CFC1877524A5BA3B19597D6E1BEC /* Pods-Netra Pubg StickersTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Netra Pubg StickersTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C46FB1C71CE42E34CACF68D6F3EC85E /* ARSLineProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARSLineProgress-dummy.m"; sourceTree = "<group>"; };
+		7CCE4439221844B67C536F59254AA093 /* PreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreviewView.swift; path = Sources/PreviewView.swift; sourceTree = "<group>"; };
+		7E696340F26C29375434C24781C02CE8 /* ARSLineProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARSLineProgress-umbrella.h"; sourceTree = "<group>"; };
+		83153227C70F01283B0762FC529E3BDE /* PinterestLayoutDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinterestLayoutDelegate.swift; path = PinterestLayout/PinterestLayoutDelegate.swift; sourceTree = "<group>"; };
+		8403A8BA99030199A40765FDF4A9EBD0 /* NVActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallBeat.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
+		85FAA45F0676F6FE70D526E69388000F /* Pods_Netra_Pubg_StickersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Netra_Pubg_StickersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9050BC2684171E48D997D14E4D1414 /* ColorSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorSlider-prefix.pch"; sourceTree = "<group>"; };
+		8AAC3C5E1BAD84F7160CB7F559DA5A6B /* HSBColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSBColor.swift; path = Sources/Internal/HSBColor.swift; sourceTree = "<group>"; };
+		8AB5FD9D94C88A9078E76A324CB907F6 /* TLPhotoPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-prefix.pch"; sourceTree = "<group>"; };
+		8B8D58B4C2EFF816158D7A0DA90BA7A3 /* NVActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScale.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
+		90D5BA3B73E71D29DFAC47AD1F9B247D /* NVActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZag.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
+		915397D275F6B3ADE810A94D155CD28C /* ARSLineProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARSLineProgress.xcconfig; sourceTree = "<group>"; };
+		91FB46B1D3F8AEAB919B2A50CA9B8549 /* ARSLineProgressProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARSLineProgressProtocols.swift; path = Source/ARSLineProgressProtocols.swift; sourceTree = "<group>"; };
+		92AE0D0DD8943DF85406D25C93637B15 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOut.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
+		940C3FC76E208D3CE1FA53C3045D693A /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotateMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
+		94A38A759851CC00DAF9CF572EBC7769 /* Pods-Netra Pubg Stickers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Netra Pubg Stickers.release.xcconfig"; sourceTree = "<group>"; };
+		991F53C83F948B8C1A740D5A27AEC55F /* NVActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
+		9980C2734AEF4FBFE793563471941D3B /* NVActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCubeTransition.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E07875D1EF6958F41B8B25B052A02F9 /* TLAlbumPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAlbumPopView.swift; path = TLPhotoPicker/Classes/TLAlbumPopView.swift; sourceTree = "<group>"; };
+		A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21B4BC925BAA29029ED74500616217E /* Pods-iMessagePubGStickers-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iMessagePubGStickers-Info.plist"; sourceTree = "<group>"; };
+		A6959A24BCE0846A396D6F18285FE365 /* NVActivityIndicatorPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorPresenter.swift; path = Source/NVActivityIndicatorView/Presenter/NVActivityIndicatorPresenter.swift; sourceTree = "<group>"; };
+		A7451C03F3E5FC9CFE69224670ACA421 /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationOrbit.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
+		A765A42EEACB229D5BFBD2760BBF5B38 /* ARSLineProgress-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ARSLineProgress-Info.plist"; sourceTree = "<group>"; };
+		A77BDD4D44222BCB204BE28CB9809722 /* ColorSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80BD525D7515B948C58D8EC041563FB /* ARSProgressLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARSProgressLoader.swift; path = Source/ARSProgressLoader.swift; sourceTree = "<group>"; };
+		A89E3CC4846ECC3D651440E3DB0088FD /* ARSStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARSStatus.swift; path = Source/ARSStatus.swift; sourceTree = "<group>"; };
+		AC0E627F1C857BD6B971B4722A515C5D /* TLPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoCollectionViewCell.swift; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF95EF53B959ECECE9A2A5D9034DCBB7 /* PinterestVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinterestVC.swift; path = PinterestLayout/PinterestVC.swift; sourceTree = "<group>"; };
+		AFA2FF939714F9F0CA7D49A689016173 /* TLPhotosPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotosPickerViewController.xib; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.xib; sourceTree = "<group>"; };
+		B078F223F4F13C53E2DA0EA8CD75732F /* Pods-Netra Pubg StickersTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Netra Pubg StickersTests-Info.plist"; sourceTree = "<group>"; };
+		B2AC1333E31B08A6CC2DB6DC680A94B6 /* ColorSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorSlider.swift; path = Sources/ColorSlider.swift; sourceTree = "<group>"; };
+		B2BAC6A28259875AF02FFFE8A0BF5EB1 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZagDeflect.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
+		B2ECC31FC2FBB737FDF4175AFCC18DB8 /* NVActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		B3CEE10A245F1171211E318DC8ADF0D3 /* Pods-Netra Pubg StickersTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Netra Pubg StickersTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4DD4A0386E75F9F2827D58F0C372572 /* NVActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridBeat.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
+		B78F77A986281680C970607912DE0486 /* NVActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		B87F2FE0CBCEBFF2C919BB8FD2FD5CC3 /* SynchronizedDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedDictionary.swift; path = TLPhotoPicker/Classes/SynchronizedDictionary.swift; sourceTree = "<group>"; };
+		B92349CF9BE7A3709565F69EB618A937 /* ColorSliderExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorSliderExtensions.swift; path = Sources/Internal/ColorSliderExtensions.swift; sourceTree = "<group>"; };
+		B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BA204E3F71FE858296CF8B7DEB95AF11 /* Pods-iMessagePubGStickers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iMessagePubGStickers.release.xcconfig"; sourceTree = "<group>"; };
+		BCF53A0AD7AD9C3BB2AADE9CA8A689D6 /* Pods_Netra_Pubg_StickersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Netra_Pubg_StickersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C627D561F7352037493AEC4A89D6E5D1 /* NVActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationAudioEqualizer.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
+		C67B3693C78BFDA23FEB8877CF58F333 /* TLPhotoPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-umbrella.h"; sourceTree = "<group>"; };
+		C6AA61B1B171581F8F8316B5B643B2BE /* Pods-Netra Pubg StickersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Netra Pubg StickersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C702872698E0DBF2A930431C8463748C /* PinterestLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinterestLayout-prefix.pch"; sourceTree = "<group>"; };
+		C79B29EB913063BEE9A1DB4E04287BAB /* NVActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NVActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLPhotoPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB8169E97BDA9B350A3CCDBAC645032 /* NVActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSquareSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
+		CD192ECD0B8F2D236C5DDB63C53D52D3 /* Pods-Netra Pubg Stickers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Netra Pubg Stickers.modulemap"; sourceTree = "<group>"; };
+		D16460663FBA2A220CB09D4AC0E30A11 /* Pods-Netra Pubg StickersTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Netra Pubg StickersTests-umbrella.h"; sourceTree = "<group>"; };
+		D205CFBF84471D5BD48B90A4743BC891 /* Pods-iMessagePubGStickers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iMessagePubGStickers.debug.xcconfig"; sourceTree = "<group>"; };
+		D223E2FD3BD57C71B6AFE8D9C288B69B /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
+		D6F5D9CD78EFF28A19978EDC8B28E0E2 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
+		D899EE9A3526402FB8B0032D6160DBE8 /* DefaultPreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultPreviewView.swift; path = Sources/DefaultPreviewView.swift; sourceTree = "<group>"; };
+		D8A5AE548C17E44A67986AF41C2DE997 /* Pods-Netra Pubg Stickers-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Netra Pubg Stickers-Info.plist"; sourceTree = "<group>"; };
+		DBFEB518E1484EF57D53616DA96FBF9C /* NVActivityIndicatorAnimationBallDoubleBounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallDoubleBounce.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallDoubleBounce.swift; sourceTree = "<group>"; };
+		DC0C27D00D62BBF91CBA568BDEF59C10 /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScale.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
+		E2053079B4871D0AE3A3A8AC16711663 /* ARSInfiniteLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARSInfiniteLoader.swift; path = Source/ARSInfiniteLoader.swift; sourceTree = "<group>"; };
+		E24F64C09427D567BDA911F9D62CC7BC /* TLPhotoPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLPhotoPicker-dummy.m"; sourceTree = "<group>"; };
+		E50D00CE320F1F076111B42A3FDD4857 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallSpinFadeLoader.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
+		E58926B228E015F22A541D4259DABEE8 /* NVActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationDelegate.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
+		E6F1294102425DDDDE3ACC14FFC46EF4 /* TLPhotoPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLPhotoPicker.xcconfig; sourceTree = "<group>"; };
+		E78F9E30DC8107A03E91C6BD2CB0FB6B /* PinterestLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinterestLayout-dummy.m"; sourceTree = "<group>"; };
+		E86FB6957DFCF582C550D5238464D2DB /* PinterestCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinterestCell.swift; path = PinterestLayout/PinterestCell.swift; sourceTree = "<group>"; };
+		EAEBF5945ED50B0BC83106F7FAB717FF /* TLPhotoPickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TLPhotoPickerController.bundle; path = TLPhotoPicker/TLPhotoPickerController.bundle; sourceTree = "<group>"; };
+		EB3639F93420B91B78AD970AF7980768 /* TLPhotosPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotosPickerViewController.swift; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.swift; sourceTree = "<group>"; };
+		EB771B7A4E487416A91B4BBBC554CE10 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCircleStrokeSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
+		EC6B72C2D27EE6CB45E78B622F1F3500 /* TLAssetsCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAssetsCollection.swift; path = TLPhotoPicker/Classes/TLAssetsCollection.swift; sourceTree = "<group>"; };
+		EED19BFF8286F2A43A809198E864FA41 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSemiCircleSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
+		EEE2A83C4D45003A624AEE198D129C14 /* NVActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBlank.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
+		F09A3B70BC5BA9E0C66FF0D50D519B73 /* Pods-Netra Pubg StickersUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Netra Pubg StickersUITests-Info.plist"; sourceTree = "<group>"; };
+		F4012F929127CD5147F2C886A5E06023 /* Pods-Netra Pubg StickersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Netra Pubg StickersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6C7C7E7DE0454EFDF27A2407E9101E7 /* PinterestLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinterestLayout.swift; path = PinterestLayout/PinterestLayout.swift; sourceTree = "<group>"; };
+		F759BC3FE9F1395B6DC59605B1F4DE6D /* ColorSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ColorSlider.modulemap; sourceTree = "<group>"; };
+		F87089CD2CB2D1C6940A35BB028FB798 /* TLPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotoCollectionViewCell.xib; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		F9E81098B73D978381EC411D8B6B643D /* Pods_Netra_Pubg_Stickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Netra_Pubg_Stickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC3C5CE910078B91010A0058CDE7025 /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = Sources/GradientView.swift; sourceTree = "<group>"; };
+		FC252894FADDEAC512409D0924D15C03 /* ARSLineProgressExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARSLineProgressExtensions.swift; path = Source/ARSLineProgressExtensions.swift; sourceTree = "<group>"; };
+		FD994A41E8A73C6447956252211B0EAF /* ColorSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ColorSlider-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		122FBA92F5B0F8A0DC0126F706D81DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300630A51DE25B990A2C4B5BA0F44E7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185DE99AAD4670E6FFD67602D2CC3EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8004F6422653359C4C96C6FA704A1B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0C815708740BCA15C6CE000FDF0053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA52F7FA08A1ADCE53658D884E79313 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EF029A335F432176EBF9E3763BDFE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB11CEBFC5B8B2EDB78BD5D723B2245 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1B15ABAE73CDE2A136393A1072F9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EAD3AC0DA6222809E7914E45208093 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AAC61EDD4F9B80D540773AF8792A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7C5F56C326E3A8F4029BFE61CF9D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3284D1B236580D227E2AE67BB7204A /* CoreGraphics.framework in Frameworks */,
+				EEEAAD7A83977059AB41FF5FA746A9BF /* Foundation.framework in Frameworks */,
+				7B63048690E3EFD4D67EFA53CD786319 /* QuartzCore.framework in Frameworks */,
+				E2E7C547C9DE21C008E067386A828E01 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4510C13F42921678D9217C886FC496E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7F20843BE77164C865CCA5DBA6FA09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77DC6F5A625D146C50802AF665644BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE10EFA3F22D516458B04373C7F1DEEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B8E8FA700D6250F9A6126DDFB4BAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FEC5AAEF5841875C90EAA04A824277 /* Foundation.framework in Frameworks */,
+				54C5CC95513F4B361BA0F784818DD6E4 /* QuartzCore.framework in Frameworks */,
+				6033B51021E10F40310F40645A99EC65 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D0032DF2B421D54DE4C8E9795C7D494 /* TLPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				B87F2FE0CBCEBFF2C919BB8FD2FD5CC3 /* SynchronizedDictionary.swift */,
+				9E07875D1EF6958F41B8B25B052A02F9 /* TLAlbumPopView.swift */,
+				18BE3AADCA01C6887C39F51567CD0C80 /* TLAssetCollection+Extension.swift */,
+				EC6B72C2D27EE6CB45E78B622F1F3500 /* TLAssetsCollection.swift */,
+				435B0DA4473BB505D1676D0FAC331404 /* TLBundle.swift */,
+				4F2A5F8A1FC9B0FEC8A3B3F8E3F5C7AE /* TLCollectionTableViewCell.swift */,
+				AC0E627F1C857BD6B971B4722A515C5D /* TLPhotoCollectionViewCell.swift */,
+				512C5C942E529CB768261EDA1951F626 /* TLPhotoLibrary.swift */,
+				5A293B4FE7700B7094F57C4C31F97AC3 /* TLPhotopickerDataSourcesProtocol.swift */,
+				EB3639F93420B91B78AD970AF7980768 /* TLPhotosPickerViewController.swift */,
+				8FA8215CDAC4330DF6F7DAC96E7C0A57 /* Resources */,
+				2ED97E931C48F248C6E856A91B6DDD69 /* Support Files */,
+			);
+			path = TLPhotoPicker;
+			sourceTree = "<group>";
+		};
+		216D11D6253026459814863746CC99A1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */,
+				762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */,
+				B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */,
+				56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2D57D2B4D2618DDE0D05D55F75304D1B /* NVActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				FF87225FB10B70B3479DF67B00B4A49C /* Presenter */,
+				8B7BD320DBAD63EE865F5D86BF6DA368 /* Support Files */,
+			);
+			path = NVActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		2DF2A6B7F6D42784DDC378E786C7B7DC /* ARSLineProgress */ = {
+			isa = PBXGroup;
+			children = (
+				E2053079B4871D0AE3A3A8AC16711663 /* ARSInfiniteLoader.swift */,
+				1D961CCF1A09DAB865725BC47941C877 /* ARSLineProgress.swift */,
+				1791722A9F998E43CCE254DEABD31D47 /* ARSLineProgressConstants.swift */,
+				123EB0E461F3BBB9031AA4E9618CDA94 /* ARSLineProgressCustomization.swift */,
+				FC252894FADDEAC512409D0924D15C03 /* ARSLineProgressExtensions.swift */,
+				39B76E934A0683BBA9778A53FD3633AB /* ARSLineProgressHelpers.swift */,
+				91FB46B1D3F8AEAB919B2A50CA9B8549 /* ARSLineProgressProtocols.swift */,
+				21682837D7685073C0177DBE7708BAEF /* ARSLineProgressTypeAliases.swift */,
+				A80BD525D7515B948C58D8EC041563FB /* ARSProgressLoader.swift */,
+				A89E3CC4846ECC3D651440E3DB0088FD /* ARSStatus.swift */,
+				C6A3EDA3A6754D78E1C052A3B19892DA /* Support Files */,
+			);
+			path = ARSLineProgress;
+			sourceTree = "<group>";
+		};
+		2ED97E931C48F248C6E856A91B6DDD69 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D223E2FD3BD57C71B6AFE8D9C288B69B /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */,
+				0B3B5FD50E5A78635DA35EB2BC66B087 /* TLPhotoPicker.modulemap */,
+				E6F1294102425DDDDE3ACC14FFC46EF4 /* TLPhotoPicker.xcconfig */,
+				E24F64C09427D567BDA911F9D62CC7BC /* TLPhotoPicker-dummy.m */,
+				27DD38A2FA5D3179370ABDA3231258AF /* TLPhotoPicker-Info.plist */,
+				8AB5FD9D94C88A9078E76A324CB907F6 /* TLPhotoPicker-prefix.pch */,
+				C67B3693C78BFDA23FEB8877CF58F333 /* TLPhotoPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TLPhotoPicker";
+			sourceTree = "<group>";
+		};
+		541BE11FD76628348A763EC17ED055E6 /* Pods-Netra Pubg StickersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44CED369DF1EC9465DB717BFB73E62F9 /* Pods-Netra Pubg StickersUITests.modulemap */,
+				3ECC3BB8A70A8F9F28659B6F3CFBD94B /* Pods-Netra Pubg StickersUITests-acknowledgements.markdown */,
+				326F7FEB33DA74A80C1427A6A837AA0A /* Pods-Netra Pubg StickersUITests-acknowledgements.plist */,
+				2B75EF58022F8CF1F480DD65B58A91A6 /* Pods-Netra Pubg StickersUITests-dummy.m */,
+				F09A3B70BC5BA9E0C66FF0D50D519B73 /* Pods-Netra Pubg StickersUITests-Info.plist */,
+				78F29677F4A15C7BADA227DB3249EA37 /* Pods-Netra Pubg StickersUITests-umbrella.h */,
+				F4012F929127CD5147F2C886A5E06023 /* Pods-Netra Pubg StickersUITests.debug.xcconfig */,
+				3FB3216D47E64F3B20ECB0ED4C7A4A98 /* Pods-Netra Pubg StickersUITests.release.xcconfig */,
+			);
+			name = "Pods-Netra Pubg StickersUITests";
+			path = "Target Support Files/Pods-Netra Pubg StickersUITests";
+			sourceTree = "<group>";
+		};
+		5F7F6FF109EEA89DEFE647BE77F724BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DF2A6B7F6D42784DDC378E786C7B7DC /* ARSLineProgress */,
+				E0BB43C5DFABF475F6A0DE6891EFDFE3 /* ColorSlider */,
+				2D57D2B4D2618DDE0D05D55F75304D1B /* NVActivityIndicatorView */,
+				ED7738F9B74620884914D9D2047BFDF5 /* PinterestLayout */,
+				0D0032DF2B421D54DE4C8E9795C7D494 /* TLPhotoPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6229FD97B7E35B0FE8E3F0456E500E0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F759BC3FE9F1395B6DC59605B1F4DE6D /* ColorSlider.modulemap */,
+				6C0ACC0CED8538C54BB90148BE1B1894 /* ColorSlider.xcconfig */,
+				0A023591E8DB0BDB32E08C605D54B310 /* ColorSlider-dummy.m */,
+				FD994A41E8A73C6447956252211B0EAF /* ColorSlider-Info.plist */,
+				8A9050BC2684171E48D997D14E4D1414 /* ColorSlider-prefix.pch */,
+				477E748313500A420E7993476857C837 /* ColorSlider-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ColorSlider";
+			sourceTree = "<group>";
+		};
+		725BD81F38F7E8D160966ADD6A5FF013 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EC8BF6E668A2E7FBCA77580EB5C8E27 /* PinterestLayout.modulemap */,
+				00E81A88B9DE6EA106EC19C0E2CEBED7 /* PinterestLayout.xcconfig */,
+				E78F9E30DC8107A03E91C6BD2CB0FB6B /* PinterestLayout-dummy.m */,
+				12C3F8C43AB8B93634EA1042189ECC7C /* PinterestLayout-Info.plist */,
+				C702872698E0DBF2A930431C8463748C /* PinterestLayout-prefix.pch */,
+				4B3C3552440090E35E9B03AB8438578C /* PinterestLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PinterestLayout";
+			sourceTree = "<group>";
+		};
+		750EA0BECB6BDEB823E77226D4785606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				663D2E72AA1113C21C9A40DC1EBBD268 /* ARSLineProgress.framework */,
+				A77BDD4D44222BCB204BE28CB9809722 /* ColorSlider.framework */,
+				A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView.framework */,
+				59A6C13DFBADA36082D2ACC9CFE5E05D /* PinterestLayout.framework */,
+				51CBF8D477ED8BEDAFEAEC3458FE67DD /* Pods_iMessagePubGStickers.framework */,
+				F9E81098B73D978381EC411D8B6B643D /* Pods_Netra_Pubg_Stickers.framework */,
+				BCF53A0AD7AD9C3BB2AADE9CA8A689D6 /* Pods_Netra_Pubg_StickersTests.framework */,
+				85FAA45F0676F6FE70D526E69388000F /* Pods_Netra_Pubg_StickersUITests.framework */,
+				C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker.bundle */,
+				28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F4A77301A8A17FF88B69628E386EB49 /* Pods-iMessagePubGStickers */ = {
+			isa = PBXGroup;
+			children = (
+				33E7326983A0A7391D194DC794090F5B /* Pods-iMessagePubGStickers.modulemap */,
+				4260D71095278C8E1B8FBB23C49A5696 /* Pods-iMessagePubGStickers-acknowledgements.markdown */,
+				219E8ED2D58591EB8D175D0A728B19A2 /* Pods-iMessagePubGStickers-acknowledgements.plist */,
+				3D267B5B76B60CD9477B41AAFDCB6609 /* Pods-iMessagePubGStickers-dummy.m */,
+				A21B4BC925BAA29029ED74500616217E /* Pods-iMessagePubGStickers-Info.plist */,
+				5C20F454000EF86CC57EBF6D1E7A38E4 /* Pods-iMessagePubGStickers-umbrella.h */,
+				D205CFBF84471D5BD48B90A4743BC891 /* Pods-iMessagePubGStickers.debug.xcconfig */,
+				BA204E3F71FE858296CF8B7DEB95AF11 /* Pods-iMessagePubGStickers.release.xcconfig */,
+			);
+			name = "Pods-iMessagePubGStickers";
+			path = "Target Support Files/Pods-iMessagePubGStickers";
+			sourceTree = "<group>";
+		};
+		8B7BD320DBAD63EE865F5D86BF6DA368 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C79B29EB913063BEE9A1DB4E04287BAB /* NVActivityIndicatorView.modulemap */,
+				991F53C83F948B8C1A740D5A27AEC55F /* NVActivityIndicatorView.xcconfig */,
+				3C351359CC7AD6FE4DBC6E7B9057C325 /* NVActivityIndicatorView-dummy.m */,
+				2737FB1C2C6C1B666B82837DEC6AEF26 /* NVActivityIndicatorView-Info.plist */,
+				B2ECC31FC2FBB737FDF4175AFCC18DB8 /* NVActivityIndicatorView-prefix.pch */,
+				B78F77A986281680C970607912DE0486 /* NVActivityIndicatorView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NVActivityIndicatorView";
+			sourceTree = "<group>";
+		};
+		8FA8215CDAC4330DF6F7DAC96E7C0A57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				405B4728136F18F6D2159C1C1EAEC684 /* TLCollectionTableViewCell.xib */,
+				F87089CD2CB2D1C6940A35BB028FB798 /* TLPhotoCollectionViewCell.xib */,
+				EAEBF5945ED50B0BC83106F7FAB717FF /* TLPhotoPickerController.bundle */,
+				AFA2FF939714F9F0CA7D49A689016173 /* TLPhotosPickerViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AB5FF8F6BEB8511EF3D978FFD43C3FD8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A77301A8A17FF88B69628E386EB49 /* Pods-iMessagePubGStickers */,
+				E4C5CB52808FE9E504CA44FD0138240F /* Pods-Netra Pubg Stickers */,
+				BADB82624BBD9A31FB819CB84046A298 /* Pods-Netra Pubg StickersTests */,
+				541BE11FD76628348A763EC17ED055E6 /* Pods-Netra Pubg StickersUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				216D11D6253026459814863746CC99A1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BADB82624BBD9A31FB819CB84046A298 /* Pods-Netra Pubg StickersTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E4D74453B6B5B0F910B2218EA3538CF /* Pods-Netra Pubg StickersTests.modulemap */,
+				B3CEE10A245F1171211E318DC8ADF0D3 /* Pods-Netra Pubg StickersTests-acknowledgements.markdown */,
+				7924CFC1877524A5BA3B19597D6E1BEC /* Pods-Netra Pubg StickersTests-acknowledgements.plist */,
+				6AD8C02EA86BBB6C8E841AFBD909973D /* Pods-Netra Pubg StickersTests-dummy.m */,
+				B078F223F4F13C53E2DA0EA8CD75732F /* Pods-Netra Pubg StickersTests-Info.plist */,
+				D16460663FBA2A220CB09D4AC0E30A11 /* Pods-Netra Pubg StickersTests-umbrella.h */,
+				C6AA61B1B171581F8F8316B5B643B2BE /* Pods-Netra Pubg StickersTests.debug.xcconfig */,
+				255EAFBCBF89FA4D1F5D1011E6155A4B /* Pods-Netra Pubg StickersTests.release.xcconfig */,
+			);
+			name = "Pods-Netra Pubg StickersTests";
+			path = "Target Support Files/Pods-Netra Pubg StickersTests";
+			sourceTree = "<group>";
+		};
+		C6A3EDA3A6754D78E1C052A3B19892DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E9D61F5BA216371214F9E183C9BCDB1 /* ARSLineProgress.modulemap */,
+				915397D275F6B3ADE810A94D155CD28C /* ARSLineProgress.xcconfig */,
+				7C46FB1C71CE42E34CACF68D6F3EC85E /* ARSLineProgress-dummy.m */,
+				A765A42EEACB229D5BFBD2760BBF5B38 /* ARSLineProgress-Info.plist */,
+				297B92C05A2C6BAA58E3C942293D383E /* ARSLineProgress-prefix.pch */,
+				7E696340F26C29375434C24781C02CE8 /* ARSLineProgress-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ARSLineProgress";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				5F7F6FF109EEA89DEFE647BE77F724BC /* Pods */,
+				750EA0BECB6BDEB823E77226D4785606 /* Products */,
+				AB5FF8F6BEB8511EF3D978FFD43C3FD8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0BB43C5DFABF475F6A0DE6891EFDFE3 /* ColorSlider */ = {
+			isa = PBXGroup;
+			children = (
+				B2AC1333E31B08A6CC2DB6DC680A94B6 /* ColorSlider.swift */,
+				B92349CF9BE7A3709565F69EB618A937 /* ColorSliderExtensions.swift */,
+				D899EE9A3526402FB8B0032D6160DBE8 /* DefaultPreviewView.swift */,
+				447478AFF0BB809EC77DD73B75B8595E /* Gradient.swift */,
+				FBC3C5CE910078B91010A0058CDE7025 /* GradientView.swift */,
+				8AAC3C5E1BAD84F7160CB7F559DA5A6B /* HSBColor.swift */,
+				7CCE4439221844B67C536F59254AA093 /* PreviewView.swift */,
+				6229FD97B7E35B0FE8E3F0456E500E0B /* Support Files */,
+			);
+			path = ColorSlider;
+			sourceTree = "<group>";
+		};
+		E4C5CB52808FE9E504CA44FD0138240F /* Pods-Netra Pubg Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				CD192ECD0B8F2D236C5DDB63C53D52D3 /* Pods-Netra Pubg Stickers.modulemap */,
+				419849D94C8FE9EE931FA15260B06A31 /* Pods-Netra Pubg Stickers-acknowledgements.markdown */,
+				41961233AE4D25C9FAFA5DB36B924ECB /* Pods-Netra Pubg Stickers-acknowledgements.plist */,
+				6BC9B1CD6488E1227F6D1DD5A85A5CF4 /* Pods-Netra Pubg Stickers-dummy.m */,
+				448E8A9550F8E0858683BF3A4E8905D5 /* Pods-Netra Pubg Stickers-frameworks.sh */,
+				D8A5AE548C17E44A67986AF41C2DE997 /* Pods-Netra Pubg Stickers-Info.plist */,
+				2F219C7469BE9C2252853C7D6FD60806 /* Pods-Netra Pubg Stickers-umbrella.h */,
+				4305DBB6CC294B346CB407220CA99ADA /* Pods-Netra Pubg Stickers.debug.xcconfig */,
+				94A38A759851CC00DAF9CF572EBC7769 /* Pods-Netra Pubg Stickers.release.xcconfig */,
+			);
+			name = "Pods-Netra Pubg Stickers";
+			path = "Target Support Files/Pods-Netra Pubg Stickers";
+			sourceTree = "<group>";
+		};
+		ED7738F9B74620884914D9D2047BFDF5 /* PinterestLayout */ = {
+			isa = PBXGroup;
+			children = (
+				532E312A7F0D258697E61607B4C70D80 /* Help.swift */,
+				E86FB6957DFCF582C550D5238464D2DB /* PinterestCell.swift */,
+				F6C7C7E7DE0454EFDF27A2407E9101E7 /* PinterestLayout.swift */,
+				629529CF1D4AFF72D72178FF24DE7FDF /* PinterestLayoutAttributes.swift */,
+				83153227C70F01283B0762FC529E3BDE /* PinterestLayoutDelegate.swift */,
+				AF95EF53B959ECECE9A2A5D9034DCBB7 /* PinterestVC.swift */,
+				725BD81F38F7E8D160966ADD6A5FF013 /* Support Files */,
+			);
+			path = PinterestLayout;
+			sourceTree = "<group>";
+		};
+		FF87225FB10B70B3479DF67B00B4A49C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C627D561F7352037493AEC4A89D6E5D1 /* NVActivityIndicatorAnimationAudioEqualizer.swift */,
+				8403A8BA99030199A40765FDF4A9EBD0 /* NVActivityIndicatorAnimationBallBeat.swift */,
+				2577125D71637E882F3ECFE236C30B36 /* NVActivityIndicatorAnimationBallClipRotate.swift */,
+				940C3FC76E208D3CE1FA53C3045D693A /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */,
+				575B8D0566DC86ECD9E7CCC84E99BDEE /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */,
+				DBFEB518E1484EF57D53616DA96FBF9C /* NVActivityIndicatorAnimationBallDoubleBounce.swift */,
+				B4DD4A0386E75F9F2827D58F0C372572 /* NVActivityIndicatorAnimationBallGridBeat.swift */,
+				183A6763A3D3AAEA46259DC9F02E4A3B /* NVActivityIndicatorAnimationBallGridPulse.swift */,
+				37B3A40E12C40666AFE97FCB3D38C266 /* NVActivityIndicatorAnimationBallPulse.swift */,
+				163FD8BB527E5DFA7FC946556B2C822D /* NVActivityIndicatorAnimationBallPulseRise.swift */,
+				6FED3EFA446DD63804902E8F655DE98B /* NVActivityIndicatorAnimationBallPulseSync.swift */,
+				6447C87FDB16685A8D609FF9206FFA18 /* NVActivityIndicatorAnimationBallRotate.swift */,
+				66E5512936AC7CE5405B8810695D81A2 /* NVActivityIndicatorAnimationBallRotateChase.swift */,
+				8B8D58B4C2EFF816158D7A0DA90BA7A3 /* NVActivityIndicatorAnimationBallScale.swift */,
+				42EFDA1658AE617DFC0439A7A1C82810 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */,
+				6EA7AEDEB948ED1D3F5A3C759C5A9147 /* NVActivityIndicatorAnimationBallScaleRipple.swift */,
+				36F0D751CA51912E3CA9B5845B22CA98 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
+				E50D00CE320F1F076111B42A3FDD4857 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */,
+				2DC2AD0BA8F1551AF31C98FA547E4A4A /* NVActivityIndicatorAnimationBallTrianglePath.swift */,
+				90D5BA3B73E71D29DFAC47AD1F9B247D /* NVActivityIndicatorAnimationBallZigZag.swift */,
+				B2BAC6A28259875AF02FFFE8A0BF5EB1 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */,
+				EEE2A83C4D45003A624AEE198D129C14 /* NVActivityIndicatorAnimationBlank.swift */,
+				EB771B7A4E487416A91B4BBBC554CE10 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */,
+				9980C2734AEF4FBFE793563471941D3B /* NVActivityIndicatorAnimationCubeTransition.swift */,
+				E58926B228E015F22A541D4259DABEE8 /* NVActivityIndicatorAnimationDelegate.swift */,
+				DC0C27D00D62BBF91CBA568BDEF59C10 /* NVActivityIndicatorAnimationLineScale.swift */,
+				5ABD455BBFB8F91666F518636B212B79 /* NVActivityIndicatorAnimationLineScaleParty.swift */,
+				92AE0D0DD8943DF85406D25C93637B15 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */,
+				D6F5D9CD78EFF28A19978EDC8B28E0E2 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
+				373C883E0359A926D998BFA3B80EDEC8 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */,
+				A7451C03F3E5FC9CFE69224670ACA421 /* NVActivityIndicatorAnimationOrbit.swift */,
+				0955BE002FCAA1FD004258A95148710C /* NVActivityIndicatorAnimationPacman.swift */,
+				EED19BFF8286F2A43A809198E864FA41 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */,
+				CAB8169E97BDA9B350A3CCDBAC645032 /* NVActivityIndicatorAnimationSquareSpin.swift */,
+				33140B22E21F6841CC08908A5C052F94 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
+				A6959A24BCE0846A396D6F18285FE365 /* NVActivityIndicatorPresenter.swift */,
+				0F8340A7EF857E442B568F7838A44A89 /* NVActivityIndicatorShape.swift */,
+				0842960DFC63913B499A1DD076FD5316 /* NVActivityIndicatorView.swift */,
+				5E0F8F670936BF47E23FF053E08B2304 /* NVActivityIndicatorViewable.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05A6C36ABA4A8A065EE62F3E8663EDAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D6DECF268E745B957043D8F372BD22 /* Pods-Netra Pubg StickersUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164D474118BAF4FD7014AB9406C2EE89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A784D740D0023B5253FCACE3B0BB7045 /* Pods-iMessagePubGStickers-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4139142E74AE29A0B3CAE2E6814526A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946CD732AF440B6B9236CAA01083BA43 /* Pods-Netra Pubg StickersTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559B1A91380CEE3AEF8F94AD5AD6FAED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28415D1AD3E62672071C216C47EFA0E2 /* PinterestLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55AF1BDFDC1ED96854A0F0B785EEDAE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B0706EF583EC48078886ED3FFA3C8A /* ColorSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E7E3DB375A69A718A656710AE51DC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F98BE579D2DF8F104DEC2BB5CA6BB2D /* TLPhotoPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0E579DF4F8738100AB61E9B368EA08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D321B1C5E2CA32B8EE57DB73C92575 /* ARSLineProgress-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B711B03BB20FEE189CBE51BB9E49A2BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEF425AA81B02F1CF80C80AA103AF7B /* NVActivityIndicatorView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9CAEEE8212EAB14DD67946CF7B424AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C54457A420C45E7CCAD9BC2D020BBB6 /* Pods-Netra Pubg Stickers-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E25D4105A6FD573D0B380E936CC9E11 /* TLPhotoPicker-TLPhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3408987A488F31E7B95E073614BC5E99 /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */;
+			buildPhases = (
+				064CAE8DA7EF59B83FE2540041A8076A /* Sources */,
+				38AAC61EDD4F9B80D540773AF8792A26 /* Frameworks */,
+				13810BE637F2D41B8A55CD6F2F9066EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TLPhotoPicker-TLPhotoPicker";
+			productName = "TLPhotoPicker-TLPhotoPicker";
+			productReference = C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1E3469B000FE3C67BAD723C2FB400BCC /* ColorSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91344CFB134CCE51498476A80CEBA466 /* Build configuration list for PBXNativeTarget "ColorSlider" */;
+			buildPhases = (
+				55AF1BDFDC1ED96854A0F0B785EEDAE6 /* Headers */,
+				368E497EA85258174D43AA64D012AEBD /* Sources */,
+				3A7C5F56C326E3A8F4029BFE61CF9D9A /* Frameworks */,
+				B5804285A13CFE45D068CB7FCBE71BB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorSlider;
+			productName = ColorSlider;
+			productReference = A77BDD4D44222BCB204BE28CB9809722 /* ColorSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		218958C98F6C1DD6057B80892D437385 /* Pods-Netra Pubg Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF56880960CA684BAF62A6C71DA0E054 /* Build configuration list for PBXNativeTarget "Pods-Netra Pubg Stickers" */;
+			buildPhases = (
+				B9CAEEE8212EAB14DD67946CF7B424AD /* Headers */,
+				FBDD5E3BC401A044D173EF8E69B51048 /* Sources */,
+				4510C13F42921678D9217C886FC496E3 /* Frameworks */,
+				140C058DB5CA2F6AB839A7C0C9268681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3162E8FCF223CEB824FC4BFE2D644B5 /* PBXTargetDependency */,
+				31EEF278477B548E14F171D4916294FB /* PBXTargetDependency */,
+				7F678CA096E229CD1E7B91158952CEC0 /* PBXTargetDependency */,
+				AF0F6AA65479F72F30C4AC1968DED6CD /* PBXTargetDependency */,
+				A87D7D78389D691AEA5990515ABB9365 /* PBXTargetDependency */,
+			);
+			name = "Pods-Netra Pubg Stickers";
+			productName = "Pods-Netra Pubg Stickers";
+			productReference = F9E81098B73D978381EC411D8B6B643D /* Pods_Netra_Pubg_Stickers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83EDB7337C58E9B750658B98269B63D9 /* PinterestLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BB0F0D5FCF4135258FD437AB2987DE /* Build configuration list for PBXNativeTarget "PinterestLayout" */;
+			buildPhases = (
+				559B1A91380CEE3AEF8F94AD5AD6FAED /* Headers */,
+				12EE403A568D30A782567C019DE48FEE /* Sources */,
+				185DE99AAD4670E6FFD67602D2CC3EDE /* Frameworks */,
+				9CD7AF72BE6B3440EA5B393360112551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinterestLayout;
+			productName = PinterestLayout;
+			productReference = 59A6C13DFBADA36082D2ACC9CFE5E05D /* PinterestLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A50A81048DE15912A9D827CAA6C0755 /* Pods-Netra Pubg StickersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3DFA1067D29CC79E81BE0F525D48FF9 /* Build configuration list for PBXNativeTarget "Pods-Netra Pubg StickersUITests" */;
+			buildPhases = (
+				05A6C36ABA4A8A065EE62F3E8663EDAA /* Headers */,
+				71A8E6E9F8DC10C3AD89938EB803B920 /* Sources */,
+				77DC6F5A625D146C50802AF665644BA2 /* Frameworks */,
+				58CC4BF0F78F97521675B77F5E6E8F4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF79A120E1943407E28FC71BC5915ADC /* PBXTargetDependency */,
+			);
+			name = "Pods-Netra Pubg StickersUITests";
+			productName = "Pods-Netra Pubg StickersUITests";
+			productReference = 85FAA45F0676F6FE70D526E69388000F /* Pods_Netra_Pubg_StickersUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF8A82876C43F4DFD625D1823E680EAC /* NVActivityIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1539FEE9B52D30E813E5B36F3CB2650D /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */;
+			buildPhases = (
+				B711B03BB20FEE189CBE51BB9E49A2BC /* Headers */,
+				11FE8C16F672C132EB3D51574695A124 /* Sources */,
+				E3B8E8FA700D6250F9A6126DDFB4BAE1 /* Frameworks */,
+				56CF30AB148B08D6CBB3EE28779A4472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NVActivityIndicatorView;
+			productName = NVActivityIndicatorView;
+			productReference = A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6699045E83214CB95982F9B23F5B6CB /* Pods-iMessagePubGStickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14CC27E7C3F7B6471E1756EB8455E2B /* Build configuration list for PBXNativeTarget "Pods-iMessagePubGStickers" */;
+			buildPhases = (
+				164D474118BAF4FD7014AB9406C2EE89 /* Headers */,
+				30CAC5B4DF78FA483C052BF7020C0566 /* Sources */,
+				2A1B15ABAE73CDE2A136393A1072F9EC /* Frameworks */,
+				C2670A858724E496364A812B0945C029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iMessagePubGStickers";
+			productName = "Pods-iMessagePubGStickers";
+			productReference = 51CBF8D477ED8BEDAFEAEC3458FE67DD /* Pods_iMessagePubGStickers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D78C2032D158F56A76D997813CEA68FC /* Pods-Netra Pubg StickersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6248B39EC08CE2382E0027D9BFF2801 /* Build configuration list for PBXNativeTarget "Pods-Netra Pubg StickersTests" */;
+			buildPhases = (
+				4139142E74AE29A0B3CAE2E6814526A4 /* Headers */,
+				D974878477ED55618A5ABE3B8FFF12F6 /* Sources */,
+				1A0C815708740BCA15C6CE000FDF0053 /* Frameworks */,
+				460D65F2647A3AE0F4B5682AD9D0541D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4DEAA77F08219300FF4689300720D62 /* PBXTargetDependency */,
+			);
+			name = "Pods-Netra Pubg StickersTests";
+			productName = "Pods-Netra Pubg StickersTests";
+			productReference = BCF53A0AD7AD9C3BB2AADE9CA8A689D6 /* Pods_Netra_Pubg_StickersTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0AD83FC0A50CCD2BA6202A19DDA01AB /* ARSLineProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEA9895D0C27A331B86B2E9F235835E /* Build configuration list for PBXNativeTarget "ARSLineProgress" */;
+			buildPhases = (
+				AC0E579DF4F8738100AB61E9B368EA08 /* Headers */,
+				3E0AB9609444CF048EE1F16BDA8FA7E0 /* Sources */,
+				21EF029A335F432176EBF9E3763BDFE7 /* Frameworks */,
+				F03A792C6CBF62476517656401945F66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARSLineProgress;
+			productName = ARSLineProgress;
+			productReference = 663D2E72AA1113C21C9A40DC1EBBD268 /* ARSLineProgress.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9241C3812D02BCBB2AA4D3936BD3909 /* TLPhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F457B8AF1E1F650F735216D744518E2 /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */;
+			buildPhases = (
+				78E7E3DB375A69A718A656710AE51DC2 /* Headers */,
+				28A1E298EFFD215B1222E6049E9AE625 /* Sources */,
+				122FBA92F5B0F8A0DC0126F706D81DAC /* Frameworks */,
+				8E76BBABAEAF391AAB0EFE5872ABCC97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A55C8556150CF5BFDDEC11C57B3B2A8 /* PBXTargetDependency */,
+			);
+			name = TLPhotoPicker;
+			productName = TLPhotoPicker;
+			productReference = 28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 750EA0BECB6BDEB823E77226D4785606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0AD83FC0A50CCD2BA6202A19DDA01AB /* ARSLineProgress */,
+				1E3469B000FE3C67BAD723C2FB400BCC /* ColorSlider */,
+				AF8A82876C43F4DFD625D1823E680EAC /* NVActivityIndicatorView */,
+				83EDB7337C58E9B750658B98269B63D9 /* PinterestLayout */,
+				C6699045E83214CB95982F9B23F5B6CB /* Pods-iMessagePubGStickers */,
+				218958C98F6C1DD6057B80892D437385 /* Pods-Netra Pubg Stickers */,
+				D78C2032D158F56A76D997813CEA68FC /* Pods-Netra Pubg StickersTests */,
+				9A50A81048DE15912A9D827CAA6C0755 /* Pods-Netra Pubg StickersUITests */,
+				F9241C3812D02BCBB2AA4D3936BD3909 /* TLPhotoPicker */,
+				0E25D4105A6FD573D0B380E936CC9E11 /* TLPhotoPicker-TLPhotoPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13810BE637F2D41B8A55CD6F2F9066EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BA6159A42B4F5968588276FAAF89DA /* TLCollectionTableViewCell.xib in Resources */,
+				8B27C2BF8404A535D5BF6068F12DA716 /* TLPhotoCollectionViewCell.xib in Resources */,
+				81D61BFF8043F43F96FCA5D0BACE8D53 /* TLPhotosPickerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140C058DB5CA2F6AB839A7C0C9268681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460D65F2647A3AE0F4B5682AD9D0541D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CF30AB148B08D6CBB3EE28779A4472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58CC4BF0F78F97521675B77F5E6E8F4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E76BBABAEAF391AAB0EFE5872ABCC97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E40981C139A575DEEF64DFA7BEDF74A /* TLPhotoPicker.bundle in Resources */,
+				47DDB54E86DBCC5146BDAA6A1040D453 /* TLPhotoPickerController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD7AF72BE6B3440EA5B393360112551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5804285A13CFE45D068CB7FCBE71BB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2670A858724E496364A812B0945C029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03A792C6CBF62476517656401945F66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		064CAE8DA7EF59B83FE2540041A8076A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FE8C16F672C132EB3D51574695A124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739AA69BF3B6A9747201587D067DC14C /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */,
+				81DAF62D21712670F61159BC27951341 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */,
+				49CD0AF62D26E8B691207DA6E47E6249 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */,
+				A54422D64A06F3B8C07FF01FE18D256F /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */,
+				CAD3EA6AB72EAB20BC8B526A9037FBD3 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */,
+				F4AB070792FBEFFBFAA96D2EA18BD3E1 /* NVActivityIndicatorAnimationBallDoubleBounce.swift in Sources */,
+				BF9E30025CF0D786A102F577C3DDD387 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */,
+				73F366235A97A2AF6CD0ABD36B8C3918 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */,
+				9209EF6A87C503DF3C409E91924DACDD /* NVActivityIndicatorAnimationBallPulse.swift in Sources */,
+				CE4CC2301A717EDFE1881D6C958BF791 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */,
+				18D3B316ACCF21376DE24F8E443355FF /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */,
+				55602BE8A67E44301481597D8DE5B677 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */,
+				9949F4C822F89A3BA5AA75C0C0165E32 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */,
+				23CFCA220D10319B40A4A7AFB16205E7 /* NVActivityIndicatorAnimationBallScale.swift in Sources */,
+				797FC27F92CB14544D03CF0E00BE0822 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */,
+				CA40DB89394085FBBBE4B0D5A40DA340 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */,
+				5E83A81465CB917AD6338D7AF1853F3E /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */,
+				B64D07267C9F00F9B9A4E67392000CA4 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */,
+				00640013C91346449891CEAAC4F5C689 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */,
+				ED837F96403A20322FAED9C51542F666 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
+				B55E5F7C3559316ABBAD12774DD9E7F3 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */,
+				BA40588701247416D36537D1EC065931 /* NVActivityIndicatorAnimationBlank.swift in Sources */,
+				9FC1C863E4F4279B2F875C1F863E04A3 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */,
+				DBC908168E6099E6842155A7E5F1E328 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */,
+				FC424F3BE1C5E3258FE456F6D35391D1 /* NVActivityIndicatorAnimationDelegate.swift in Sources */,
+				7CAA65050EAE8A3D320E0B33DD17305B /* NVActivityIndicatorAnimationLineScale.swift in Sources */,
+				34798F1AF2593E71F37D22B860D1AA6B /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */,
+				85EE677C8757712A703AFD3824FB0153 /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */,
+				BA5D029B0EB9D152BB0A11ECC9732DD5 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */,
+				38BB4CA7DC4C632D8A40A1A62CD4F88A /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */,
+				E958B4A049EE0B62FBD2B0B6F001A660 /* NVActivityIndicatorAnimationOrbit.swift in Sources */,
+				00C250907C31BD7CD6F6FBCF6C160979 /* NVActivityIndicatorAnimationPacman.swift in Sources */,
+				088D1B4FFBF195E2C5F971CE6E01F306 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */,
+				E1D169DD2A73355BB87CFC7EBC69716E /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */,
+				69BF4B71FF5D9974FEA12A55FEFCFF8F /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */,
+				BF4107A462C6AA1C2D361B17B67C3BC3 /* NVActivityIndicatorPresenter.swift in Sources */,
+				E235043951A82BF949762434A2B280E7 /* NVActivityIndicatorShape.swift in Sources */,
+				E058420E139C45F11C6220810F9F89BC /* NVActivityIndicatorView-dummy.m in Sources */,
+				C06909BBDAAD9A6C31D3FB2FD3BAD93E /* NVActivityIndicatorView.swift in Sources */,
+				063E0A231A62F5D1B7AEFA52F61CBE8C /* NVActivityIndicatorViewable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EE403A568D30A782567C019DE48FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3378163E43FB057CB59BE143CCADF9F /* Help.swift in Sources */,
+				A66D34285E92802CDCC4AAEC56BA2D0B /* PinterestCell.swift in Sources */,
+				41588F19B37122FE95EE3374E30E8608 /* PinterestLayout-dummy.m in Sources */,
+				CB8F00A4211E359FC3E701CF0D9A69C7 /* PinterestLayout.swift in Sources */,
+				F30CF20A424FFB2987EE926804F68EBE /* PinterestLayoutAttributes.swift in Sources */,
+				944FFDF44E5977D416AB5FCB803643DD /* PinterestLayoutDelegate.swift in Sources */,
+				066329E11B50EA14CC5CB95B1977B1B3 /* PinterestVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A1E298EFFD215B1222E6049E9AE625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03181D5857E1415AD309B073EA001D2 /* SynchronizedDictionary.swift in Sources */,
+				FAC61F01DD9859E1B5672D732E3153F0 /* TLAlbumPopView.swift in Sources */,
+				EFD6F56A132D7598A513E06A5D0A2189 /* TLAssetCollection+Extension.swift in Sources */,
+				E36A2CB59E38C32380DE3EAB83A3A143 /* TLAssetsCollection.swift in Sources */,
+				5388114E41FB12FFDEF3F28A3C27F5B8 /* TLBundle.swift in Sources */,
+				F88C12156EA3A09B55BC72D278BF167A /* TLCollectionTableViewCell.swift in Sources */,
+				5CC2AF6D019E010B9CBD0BDE9061009B /* TLPhotoCollectionViewCell.swift in Sources */,
+				7E999471175A08B9003E0A184BC70390 /* TLPhotoLibrary.swift in Sources */,
+				9F186C1C84918F493B7336B85973E4AE /* TLPhotoPicker-dummy.m in Sources */,
+				5F6E26EEBF52CD95E4FFEEEAACF7C795 /* TLPhotopickerDataSourcesProtocol.swift in Sources */,
+				61204A50B1F6F2E35861A5E9079BBECE /* TLPhotosPickerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CAC5B4DF78FA483C052BF7020C0566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417CE5FA6754749FC18BB7FE1B1D8D9F /* Pods-iMessagePubGStickers-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368E497EA85258174D43AA64D012AEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457E2722877BAC6B250EDAEBE07B179F /* ColorSlider-dummy.m in Sources */,
+				39AF1B7D71211DB608677E5E044ACB21 /* ColorSlider.swift in Sources */,
+				1CC464BE1E583E5160D751E207F3BFE7 /* ColorSliderExtensions.swift in Sources */,
+				D98F26017BAF92CC7211C077750D942F /* DefaultPreviewView.swift in Sources */,
+				96F9C58704D9774946612F82CEC6A9DD /* Gradient.swift in Sources */,
+				6608117DFF47DEB3554446BBEFB61589 /* GradientView.swift in Sources */,
+				CA5A2B0B83A55942F6CBA31560EEB3C0 /* HSBColor.swift in Sources */,
+				31F570C9F4C083F5A7D4060CEA42435F /* PreviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0AB9609444CF048EE1F16BDA8FA7E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8954FEE275D34105FCA3C2D963075B6D /* ARSInfiniteLoader.swift in Sources */,
+				B7D6A4F91832583596E08F096E16843C /* ARSLineProgress-dummy.m in Sources */,
+				901717348C81BB0CEF9E967E844B4B8C /* ARSLineProgress.swift in Sources */,
+				8A1515E2E4DED46BDCDFE8D65D8BF0E1 /* ARSLineProgressConstants.swift in Sources */,
+				2367BB651990AFFA2FBDF8338C58FED0 /* ARSLineProgressCustomization.swift in Sources */,
+				C203ED879337FA33BC3358D773CEEC81 /* ARSLineProgressExtensions.swift in Sources */,
+				155F9E5F0BF8D83F3CDD0DBE0C586AA1 /* ARSLineProgressHelpers.swift in Sources */,
+				52F9CBC412C565EBAC2130E971F3692A /* ARSLineProgressProtocols.swift in Sources */,
+				8D51218EE9F8D1E39635150C6CCC9BC3 /* ARSLineProgressTypeAliases.swift in Sources */,
+				43C77028EF8079B6F6D5224EF7FF034A /* ARSProgressLoader.swift in Sources */,
+				108F83678500372D52EF9CD643787ECC /* ARSStatus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A8E6E9F8DC10C3AD89938EB803B920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1DA42B92EF2DC0D9C4299F2F37C2EE /* Pods-Netra Pubg StickersUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D974878477ED55618A5ABE3B8FFF12F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D21D931F9B6CECCFB1E17CE32DD3C2 /* Pods-Netra Pubg StickersTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDD5E3BC401A044D173EF8E69B51048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA78AD1389672719FD41C42EF1DA1057 /* Pods-Netra Pubg Stickers-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31EEF278477B548E14F171D4916294FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ColorSlider;
+			target = 1E3469B000FE3C67BAD723C2FB400BCC /* ColorSlider */;
+			targetProxy = 1FF5DEB43724377D667D8CACEA35A83C /* PBXContainerItemProxy */;
+		};
+		7F678CA096E229CD1E7B91158952CEC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NVActivityIndicatorView;
+			target = AF8A82876C43F4DFD625D1823E680EAC /* NVActivityIndicatorView */;
+			targetProxy = 18227C1893684CEE866EBE319B57A3DB /* PBXContainerItemProxy */;
+		};
+		8A55C8556150CF5BFDDEC11C57B3B2A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TLPhotoPicker-TLPhotoPicker";
+			target = 0E25D4105A6FD573D0B380E936CC9E11 /* TLPhotoPicker-TLPhotoPicker */;
+			targetProxy = EE1BB9F179A05902E63D4A99D1C63CE0 /* PBXContainerItemProxy */;
+		};
+		A87D7D78389D691AEA5990515ABB9365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TLPhotoPicker;
+			target = F9241C3812D02BCBB2AA4D3936BD3909 /* TLPhotoPicker */;
+			targetProxy = 7CAEB8A96294256BA75091DAEEC1185F /* PBXContainerItemProxy */;
+		};
+		AF0F6AA65479F72F30C4AC1968DED6CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PinterestLayout;
+			target = 83EDB7337C58E9B750658B98269B63D9 /* PinterestLayout */;
+			targetProxy = 47B2F458D15CBABC036371344278655C /* PBXContainerItemProxy */;
+		};
+		BF79A120E1943407E28FC71BC5915ADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Netra Pubg Stickers";
+			target = 218958C98F6C1DD6057B80892D437385 /* Pods-Netra Pubg Stickers */;
+			targetProxy = A2F28D743ED57A32ECD4E9B1ED969623 /* PBXContainerItemProxy */;
+		};
+		E3162E8FCF223CEB824FC4BFE2D644B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ARSLineProgress;
+			target = E0AD83FC0A50CCD2BA6202A19DDA01AB /* ARSLineProgress */;
+			targetProxy = 9753EF52AB253E6CE307AE225F64E7ED /* PBXContainerItemProxy */;
+		};
+		E4DEAA77F08219300FF4689300720D62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Netra Pubg Stickers";
+			target = 218958C98F6C1DD6057B80892D437385 /* Pods-Netra Pubg Stickers */;
+			targetProxy = 11B7B957CABAEFE68C60279BDC703ECC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D06161D9CB1EEB6C3E1E3AE5C31ACE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915397D275F6B3ADE810A94D155CD28C /* ARSLineProgress.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARSLineProgress/ARSLineProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARSLineProgress/ARSLineProgress-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ARSLineProgress/ARSLineProgress.modulemap";
+				PRODUCT_MODULE_NAME = ARSLineProgress;
+				PRODUCT_NAME = ARSLineProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13886D933450BCF34FE2846D264FA243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6AA61B1B171581F8F8316B5B643B2BE /* Pods-Netra Pubg StickersTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Netra Pubg StickersTests/Pods-Netra Pubg StickersTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Netra Pubg StickersTests/Pods-Netra Pubg StickersTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		26C2FA1BB0ED1898EF933C7FCF63CB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991F53C83F948B8C1A740D5A27AEC55F /* NVActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = NVActivityIndicatorView;
+				PRODUCT_NAME = NVActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		327788C4A7A3D7CF5CDA7FA2C9902C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F1294102425DDDDE3ACC14FFC46EF4 /* TLPhotoPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TLPhotoPicker/TLPhotoPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker.modulemap";
+				PRODUCT_MODULE_NAME = TLPhotoPicker;
+				PRODUCT_NAME = TLPhotoPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		332849FD89817326AE619DF545CE8A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F1294102425DDDDE3ACC14FFC46EF4 /* TLPhotoPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TLPhotoPicker/TLPhotoPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker.modulemap";
+				PRODUCT_MODULE_NAME = TLPhotoPicker;
+				PRODUCT_NAME = TLPhotoPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B3BB7660C7829A6A8360364CAC8FCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB3216D47E64F3B20ECB0ED4C7A4A98 /* Pods-Netra Pubg StickersUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Netra Pubg StickersUITests/Pods-Netra Pubg StickersUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Netra Pubg StickersUITests/Pods-Netra Pubg StickersUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45143A810FA4489B5BDB08903058A0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4305DBB6CC294B346CB407220CA99ADA /* Pods-Netra Pubg Stickers.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Netra Pubg Stickers/Pods-Netra Pubg Stickers-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Netra Pubg Stickers/Pods-Netra Pubg Stickers.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46638F584C392A713CBC72A6F355A72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915397D275F6B3ADE810A94D155CD28C /* ARSLineProgress.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARSLineProgress/ARSLineProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARSLineProgress/ARSLineProgress-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ARSLineProgress/ARSLineProgress.modulemap";
+				PRODUCT_MODULE_NAME = ARSLineProgress;
+				PRODUCT_NAME = ARSLineProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58090F80396A9A860237F30637D182F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F1294102425DDDDE3ACC14FFC46EF4 /* TLPhotoPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
+				IBSC_MODULE = TLPhotoPicker;
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				PRODUCT_NAME = TLPhotoPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5948E04F949A691376127CD3D14E87B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F1294102425DDDDE3ACC14FFC46EF4 /* TLPhotoPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
+				IBSC_MODULE = TLPhotoPicker;
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				PRODUCT_NAME = TLPhotoPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		74FA0BA1851375097E48C9E516405511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E81A88B9DE6EA106EC19C0E2CEBED7 /* PinterestLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PinterestLayout/PinterestLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinterestLayout/PinterestLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PinterestLayout/PinterestLayout.modulemap";
+				PRODUCT_MODULE_NAME = PinterestLayout;
+				PRODUCT_NAME = PinterestLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D66E9BE55993F1FCEB5BA91AEF4F3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4012F929127CD5147F2C886A5E06023 /* Pods-Netra Pubg StickersUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Netra Pubg StickersUITests/Pods-Netra Pubg StickersUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Netra Pubg StickersUITests/Pods-Netra Pubg StickersUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EB0979C6D2B0623374D32D34ADD7021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E81A88B9DE6EA106EC19C0E2CEBED7 /* PinterestLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PinterestLayout/PinterestLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinterestLayout/PinterestLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PinterestLayout/PinterestLayout.modulemap";
+				PRODUCT_MODULE_NAME = PinterestLayout;
+				PRODUCT_NAME = PinterestLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E15A5063E12EE1DF588CF49EAEDFCE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94A38A759851CC00DAF9CF572EBC7769 /* Pods-Netra Pubg Stickers.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Netra Pubg Stickers/Pods-Netra Pubg Stickers-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Netra Pubg Stickers/Pods-Netra Pubg Stickers.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F8FC56BE88D45264C9F7BB8C02BABBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C0ACC0CED8538C54BB90148BE1B1894 /* ColorSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ColorSlider/ColorSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ColorSlider/ColorSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ColorSlider/ColorSlider.modulemap";
+				PRODUCT_MODULE_NAME = ColorSlider;
+				PRODUCT_NAME = ColorSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B6F3B564634BEBFC0113F103A6714371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D205CFBF84471D5BD48B90A4743BC891 /* Pods-iMessagePubGStickers.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iMessagePubGStickers/Pods-iMessagePubGStickers-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iMessagePubGStickers/Pods-iMessagePubGStickers.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3D15255223C5691A8167CC9B8366CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA204E3F71FE858296CF8B7DEB95AF11 /* Pods-iMessagePubGStickers.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iMessagePubGStickers/Pods-iMessagePubGStickers-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iMessagePubGStickers/Pods-iMessagePubGStickers.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA86948CD9CAC99E3440885D649ACAD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 255EAFBCBF89FA4D1F5D1011E6155A4B /* Pods-Netra Pubg StickersTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Netra Pubg StickersTests/Pods-Netra Pubg StickersTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Netra Pubg StickersTests/Pods-Netra Pubg StickersTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFDC9DA9BBAF0D262426B47B5A1A89E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991F53C83F948B8C1A740D5A27AEC55F /* NVActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = NVActivityIndicatorView;
+				PRODUCT_NAME = NVActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA62E137DEF7F9B449F74E3971D65D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C0ACC0CED8538C54BB90148BE1B1894 /* ColorSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ColorSlider/ColorSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ColorSlider/ColorSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ColorSlider/ColorSlider.modulemap";
+				PRODUCT_MODULE_NAME = ColorSlider;
+				PRODUCT_NAME = ColorSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1539FEE9B52D30E813E5B36F3CB2650D /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDC9DA9BBAF0D262426B47B5A1A89E2 /* Debug */,
+				26C2FA1BB0ED1898EF933C7FCF63CB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BB0F0D5FCF4135258FD437AB2987DE /* Build configuration list for PBXNativeTarget "PinterestLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB0979C6D2B0623374D32D34ADD7021 /* Debug */,
+				74FA0BA1851375097E48C9E516405511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3408987A488F31E7B95E073614BC5E99 /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58090F80396A9A860237F30637D182F5 /* Debug */,
+				5948E04F949A691376127CD3D14E87B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F457B8AF1E1F650F735216D744518E2 /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327788C4A7A3D7CF5CDA7FA2C9902C23 /* Debug */,
+				332849FD89817326AE619DF545CE8A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91344CFB134CCE51498476A80CEBA466 /* Build configuration list for PBXNativeTarget "ColorSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA62E137DEF7F9B449F74E3971D65D90 /* Debug */,
+				9F8FC56BE88D45264C9F7BB8C02BABBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF56880960CA684BAF62A6C71DA0E054 /* Build configuration list for PBXNativeTarget "Pods-Netra Pubg Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45143A810FA4489B5BDB08903058A0D3 /* Debug */,
+				8E15A5063E12EE1DF588CF49EAEDFCE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3DFA1067D29CC79E81BE0F525D48FF9 /* Build configuration list for PBXNativeTarget "Pods-Netra Pubg StickersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D66E9BE55993F1FCEB5BA91AEF4F3B4 /* Debug */,
+				3B3BB7660C7829A6A8360364CAC8FCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6248B39EC08CE2382E0027D9BFF2801 /* Build configuration list for PBXNativeTarget "Pods-Netra Pubg StickersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13886D933450BCF34FE2846D264FA243 /* Debug */,
+				DA86948CD9CAC99E3440885D649ACAD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14CC27E7C3F7B6471E1756EB8455E2B /* Build configuration list for PBXNativeTarget "Pods-iMessagePubGStickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6F3B564634BEBFC0113F103A6714371 /* Debug */,
+				D3D15255223C5691A8167CC9B8366CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEA9895D0C27A331B86B2E9F235835E /* Build configuration list for PBXNativeTarget "ARSLineProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46638F584C392A713CBC72A6F355A72B /* Debug */,
+				0D06161D9CB1EEB6C3E1E3AE5C31ACE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
